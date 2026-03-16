@@ -1,0 +1,343 @@
+﻿"Post ID","Page ID","Page name",Title,Description,"Duration (sec)","Publish time","Caption type",Permalink,"Is crosspost","Is share","Post type",Languages,"Custom labels","Funded content status","Data comment",Date,Views,Reach,"Reactions, comments and shares",Reactions,Comments,Shares,"Total clicks","Link clicks","Other clicks","Matched audience targeting consumption (Photo Click)","Matched audience targeting consumption (Video Click)","Views from Boosted posts","Views from Organic posts","Reach from Boosted posts","Reach from Organic posts","3-second video views","1-minute video views","3-second viewers","1-minute viewers","3-second video views from Boosted posts","3-second video views from Organic posts","1-minute video views from Recommendations","1-minute video views from Shares","1-minute video views from Followers","1-minute video views from Boosted posts","Seconds viewed from Boosted posts","Seconds viewed from Recommendations","Seconds viewed from Shares","Seconds viewed from Followers","Average Seconds viewed from Boosted posts","Average Seconds viewed from Recommendations","Average Seconds viewed from Shares","Average Seconds viewed from Followers","Negative feedback from users","Unique negative feedback from users","Seconds viewed","Average Seconds viewed","Estimated earnings (USD)","Ad CPM (USD)","Ad impressions","Percentage of total views at interval 0","Percentage of total views at interval 1","Percentage of total views at interval 2","Percentage of total views at interval 3","Percentage of total views at interval 4","Percentage of total views at interval 5","Percentage of total views at interval 6","Percentage of total views at interval 7","Percentage of total views at interval 8","Percentage of total views at interval 9","Percentage of total views at interval 10","Percentage of total views at interval 11","Percentage of total views at interval 12","Percentage of total views at interval 13","Percentage of total views at interval 14","Percentage of total views at interval 15","Percentage of total views at interval 16","Percentage of total views at interval 17","Percentage of total views at interval 18","Percentage of total views at interval 19","Percentage of total views at interval 20","Percentage of total views at interval 21","Percentage of total views at interval 22","Percentage of total views at interval 23","Percentage of total views at interval 24","Percentage of total views at interval 25","Percentage of total views at interval 26","Percentage of total views at interval 27","Percentage of total views at interval 28","Percentage of total views at interval 29","Percentage of total views at interval 30","Percentage of total views at interval 31","Percentage of total views at interval 32","Percentage of total views at interval 33","Percentage of total views at interval 34","Percentage of total views at interval 35","Percentage of total views at interval 36","Percentage of total views at interval 37","Percentage of total views at interval 38","Percentage of total views at interval 39","Percentage of total views at interval 40","Percentage of 15-second views at interval 0","Percentage of 15-second views at interval 1","Percentage of 15-second views at interval 2","Percentage of 15-second views at interval 3","Percentage of 15-second views at interval 4","Percentage of 15-second views at interval 5","Percentage of 15-second views at interval 6","Percentage of 15-second views at interval 7","Percentage of 15-second views at interval 8","Percentage of 15-second views at interval 9","Percentage of 15-second views at interval 10","Percentage of 15-second views at interval 11","Percentage of 15-second views at interval 12","Percentage of 15-second views at interval 13","Percentage of 15-second views at interval 14","Percentage of 15-second views at interval 15","Percentage of 15-second views at interval 16","Percentage of 15-second views at interval 17","Percentage of 15-second views at interval 18","Percentage of 15-second views at interval 19","Percentage of 15-second views at interval 20","Percentage of 15-second views at interval 21","Percentage of 15-second views at interval 22","Percentage of 15-second views at interval 23","Percentage of 15-second views at interval 24","Percentage of 15-second views at interval 25","Percentage of 15-second views at interval 26","Percentage of 15-second views at interval 27","Percentage of 15-second views at interval 28","Percentage of 15-second views at interval 29","Percentage of 15-second views at interval 30","Percentage of 15-second views at interval 31","Percentage of 15-second views at interval 32","Percentage of 15-second views at interval 33","Percentage of 15-second views at interval 34","Percentage of 15-second views at interval 35","Percentage of 15-second views at interval 36","Percentage of 15-second views at interval 37","Percentage of 15-second views at interval 38","Percentage of 15-second views at interval 39","Percentage of 15-second views at interval 40","3-second video views by top audience (F, 35-44)","3-second video views by top audience (F, 25-34)","3-second video views by top audience (M, 35-44)","3-second video views by top audience (F, 45-54)","3-second video views by top audience (M, 45-54)","3-second video views by top audience (M, 25-34)","3-second video views by top audience (F, 18-24)","3-second video views by top audience (F, 55-64)","3-second video views by top audience (M, 55-64)","3-second video views by top audience (F, 65+)","3-second video views by top audience (M, 18-24)","3-second video views by top audience (M, 65+)","3-second video views by country (Tunisia (TN))","3-second video views by country (France (FR))","3-second video views by country (Italy (IT))","3-second video views by country (Algeria (DZ))","3-second video views by country (Gabon (GA))","3-second video views by country (Saudi Arabia (SA))","3-second video views by country (United Arab Emirates (AE))","3-second video views by country (Morocco (MA))","3-second video views by country (Sweden (SE))","3-second video views by country (Canada (CA))","3-second video views by country (Belgium (BE))","3-second video views by country (Germany (DE))","3-second video views by country (Turkey (TR))","3-second video views by country (Egypt (EG))","3-second video views by country (Iraq (IQ))","3-second video views by country (Syria (SY))","3-second video views by country (Jordan (JO))","3-second video views by country (Palestine (PS))","3-second video views by country (Zimbabwe (ZW))","3-second video views by country (Ireland (IE))","3-second video views by country (United States (US))","3-second video views by country (Libya (LY))","3-second video views by country (Israel (IL))","3-second video views by country (Qatar (QA))","3-second video views by country (Lebanon (LB))","3-second video views by country (Liberia (LR))","3-second video views by country (United Kingdom (GB))","3-second video views by country (Netherlands (NL))","3-second video views by country (Austria (AT))","3-second video views by country (Denmark (DK))","3-second video views by country (Côte d'Ivoire (CI))","3-second video views by country (Kuwait (KW))","3-second video views by country (Réunion (RE))","3-second video views by country (China (CN))","3-second video views by country (Spain (ES))","3-second video views by country (Russia (RU))","3-second video views by country (Switzerland (CH))","3-second video views by country (Oman (OM))","3-second video views by country (Mauritania (MR))","3-second video views by country (Brazil (BR))","3-second video views by country (Sudan (SD))","3-second video views by country (Nigeria (NG))","3-second video views by country (South Africa (ZA))","3-second video views by country (Portugal (PT))","3-second video views by country (Democratic Republic of the Congo (CD))","3-second video views by country (Angola (AO))","3-second video views by country (Cameroon (CM))","3-second video views by country (Yemen (YE))","3-second video views by country (Mozambique (MZ))","3-second video views by country (Burkina Faso (BF))","3-second video views by country (Haiti (HT))","3-second video views by country (Madagascar (MG))","3-second video views by country (Nepal (NP))","3-second video views by country (Senegal (SN))","3-second video views by country (Colombia (CO))","3-second video views by country (Chad (TD))","3-second video views by country (Ethiopia (ET))","3-second video views by country (Guinea (GN))","3-second video views by country (Norway (NO))","3-second video views by country (Bahrain (BH))","3-second video views by country (Romania (RO))"
+882011668076998,100088045181015,"3M Lounge","❤️ سهرة عيد الحب في 3M Lounge ❤️
+موعد مع الإحساس، الموسيقى، واللحظات الدافئة
+خلّي الحب يجمعنا في ليلة مختلفة 🌹
+📅 السبت 14 فيفري
+⏰ الساعة السابعة مساءً
+📍 3M Lounge – Den Den
+🎟 الدخول مجاني
+احضر مع اللي تحب، والباقي علينا ✨
+#سهرة_عيد_الحب
+#ValentineNight
+#3M_Lounge
+#DenDen
+#دخول_مجاني",,0,"02/10/2026 03:45",N/A,https://www.facebook.com/permalink.php?story_fbid=pfbid02MoJZpRNLGnf4CLkesYXbMphAhKEruwyyrdcQkYU4KexCnu626fiSLgvgS8APDwj1l&id=100088045181015,0,0,Photos,,,,,Lifetime,47100,30100,245,162,34,49,1616,331,1248,37,,31119,15981,21150,16789,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+881960258082139,100088045181015,"3M Lounge","🎉💖 سعداء جدًا بتنظيم حفل عيد ميلاد الأميرة كنزا! 💖🎉
+نهار السبت 14 فيفري، ابتداءً من 14h في 3M Lounge – الدندان، باش نعيشوا معًا لحظات فرح وضحك وذكريات لا تنسى 🎂✨
+#عيد_ميلاد #كنزا #3MLounge #احتفال_الأطفال #فرحة_كبيرة","🎉💖 سعداء جدًا بتنظيم حفل عيد ميلاد الأميرة كنزا! 💖🎉
+نهار السبت 14 فيفري، ابتداءً من 14h في 3M Lounge – الدندان، باش نعيشوا معًا لحظات فرح وضحك وذكريات لا تنسى 🎂✨
+#عيد_ميلاد #كنزا #3MLounge #احتفال_الأطفال #فرحة_كبيرة",6,"02/10/2026 02:18",N/A,https://www.facebook.com/reel/865555119653142/,1,0,Videos,,,,,Lifetime,2107,1014,18,12,6,0,28,,28,,,0,2105,0,1014,524,0,465,0,0,524,0,0,0,0,0,2882.797,0,5833.05,0,6.881,0,9.318,0,0,8715.847,8.34,0,0,0,1,1,1,1,1,0.98,0.9,0.86,0.81,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,1,1,1,1,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,141,120,53,52,33,33,28,22,12,9,5,4,508,,,,10,2,,,1,1,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+908816262063205,100088045181015,"3M Lounge","🥛✨ رشفة وحدة منlait de poule ... تفهم علاش البنّة هذي ما تتقارن بحد.
+📍 3M Lounge – Denden​
+#LaitDePoule #3M_Lounge #Denden #BennaLuxe #لايت_دو_بول #بنّة #دندان #بنّة #رمضان #ميلك_شيك","🥛✨ رشفة وحدة منlait de poule ... تفهم علاش البنّة هذي ما تتقارن بحد.
+📍 3M Lounge – Denden​
+#LaitDePoule #3M_Lounge #Denden #BennaLuxe #لايت_دو_بول #بنّة #دندان #بنّة #رمضان #ميلك_شيك",13,"03/15/2026 13:27",N/A,https://www.facebook.com/reel/1146807367488118/,1,0,Videos,,,,,Lifetime,1279,1029,2,2,0,0,4,,4,,,0,1247,0,1029,530,0,530,0,0,530,0,0,0,0,0,5019.85,0,842.278,0,5.56,0,6.739,0,0,5831.093,5.705,0,0,0,1,1,1,1,0.96,0.78,0.67,0.58,0.56,0.49,0.45,0.41,0.4,0.38,0.33,0.28,0.26,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0.96,,,,,,,,,,,,,,,,,,,,,,,,,41,33,144,18,49,156,16,8,16,5,25,4,281,79,2,128,,1,2,4,1,12,3,3,,,,,,,,,,2,,1,,,3,,1,,,2,,,3,2,1,1,1,,,,,,,,,,,,,,,,,,,,,,
+1682669063105173,100088045181015,"3M Lounge","Your reel",,165,"03/14/2026 14:37",N/A,https://www.facebook.com/100088045181015/videos/1682669063105173/,0,0,Live,,,,,Lifetime,910,675,15,15,0,0,46,,46,,,0,905,0,675,415,32,369,31,0,415,0,0,0,0,0,3015.787,0,6726.855,0,10.508,0,14.044,0,0,9742.642,12.718,0,0,0,0.98,0.74,0.46,0.35,0.3,0.24,0.23,0.22,0.19,0.16,0.13,0.13,0.11,0.1,0.1,0.09,0.08,0.07,0.07,0.07,0.07,0.07,0.07,0.07,0.05,0.06,0.06,0.06,0.05,0.05,0.04,0.04,0.05,0.04,0.04,0.03,0.03,0.03,0.03,0.03,0.03,1,1,1,1,0.95,0.75,0.72,0.67,0.59,0.5,0.42,0.4,0.35,0.3,0.3,0.28,0.24,0.24,0.22,0.24,0.23,0.24,0.21,0.21,0.17,0.2,0.18,0.18,0.15,0.15,0.14,0.13,0.15,0.12,0.12,0.1,0.11,0.1,0.1,0.1,0.09,103,78,58,54,35,25,17,13,9,7,4,3,407,1,,,,1,,,1,2,1,,,,,,,,,,1,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1463447528755737,100088045181015,"3M Lounge","Your reel",,286,"03/14/2026 13:48",N/A,https://www.facebook.com/100088045181015/videos/1463447528755737/,0,0,Live,,,,,Lifetime,906,681,13,11,2,0,46,,46,,,0,899,0,681,444,27,412,27,0,444,0,0,0,0,0,3164.382,0,5854.245,0,10.11,0,12.536,0,0,9018.627,11.562,0,0,0,0.99,0.44,0.28,0.22,0.16,0.12,0.09,0.08,0.06,0.05,0.05,0.04,0.04,0.04,0.03,0.03,0.03,0.03,0.03,0.02,0.02,0.02,0.02,0.02,0.02,0.02,0.02,0.02,0.02,0.02,0.02,0.02,0.02,0.02,0.02,0.02,0.01,0.01,0.01,0.01,0,1,1,0.97,0.77,0.56,0.42,0.33,0.3,0.22,0.18,0.19,0.15,0.14,0.14,0.1,0.1,0.09,0.09,0.09,0.08,0.09,0.08,0.07,0.08,0.08,0.08,0.09,0.08,0.09,0.08,0.07,0.08,0.06,0.08,0.06,0.06,0.03,0.03,0.03,0.03,0.02,101,96,51,56,37,26,23,13,10,5,6,4,433,,1,1,1,1,,,1,1,1,,,3,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+902126275786620,100088045181015,"3M Lounge","سهرتنا انطلقت","سهرتنا انطلقت",190,"03/14/2026 13:23",N/A,https://www.facebook.com/100088045181015/videos/902126275786620/,0,0,Live,,,,,Lifetime,729,430,11,11,0,0,22,,22,,,0,724,0,430,268,18,219,17,0,268,0,0,0,0,0,1592.94,0,3422.33,0,8.34,0,8.709,0,0,5015.27,8.587,0,0,0,0.99,0.52,0.26,0.18,0.13,0.12,0.1,0.1,0.1,0.09,0.08,0.08,0.06,0.06,0.05,0.06,0.05,0.04,0.04,0.04,0.04,0.04,0.04,0.04,0.03,0.03,0.04,0.04,0.03,0.03,0.03,0.04,0.04,0.04,0.04,0.04,0.04,0.03,0.03,0.03,0.03,1,1,0.94,0.91,0.7,0.6,0.55,0.51,0.53,0.45,0.38,0.4,0.32,0.3,0.23,0.28,0.23,0.19,0.19,0.21,0.19,0.21,0.21,0.17,0.15,0.15,0.17,0.19,0.15,0.15,0.15,0.19,0.19,0.19,0.19,0.21,0.21,0.17,0.15,0.15,0.15,59,51,40,32,26,27,6,12,5,5,1,1,266,,,,,,,,,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+907309292213902,100088045181015,"3M Lounge","🎶 Live Show à ne pas rater ! 🎶
+👍 Premier arrivé premier servi 
+يستقبلكم 3M Lounge في سهرة موسيقية مميزة مع الفنان
+✨ نبيل بن محمد ✨
+
+📅 ليلة السبت 14 مارس
+🕗 بداية من الساعة الثامنة ليلاً
+
+💥 الدخول مجاني
+
+قعدة بنينة بين الأصحاب والعائلة
+وأجواء موسيقية تونسية على كيفنا ❤️
+
+📞 Infoline : 20133482
+
+#3MLounge
+#LiveShow
+#SoiréeTunisienne
+#نبيل_بن_محمد
+#SortirEnTunisie
+Ambiance","🎶 Live Show à ne pas rater ! 🎶
+👍 Premier arrivé premier servi 
+يستقبلكم 3M Lounge في سهرة موسيقية مميزة مع الفنان
+✨ نبيل بن محمد ✨
+
+📅 ليلة السبت 14 مارس
+🕗 بداية من الساعة الثامنة ليلاً
+
+💥 الدخول مجاني
+
+قعدة بنينة بين الأصحاب والعائلة
+وأجواء موسيقية تونسية على كيفنا ❤️
+
+📞 Infoline : 20133482
+
+#3MLounge
+#LiveShow
+#SoiréeTunisienne
+#نبيل_بن_محمد
+#SortirEnTunisie
+Ambiance",85,"03/13/2026 14:40",auto,https://www.facebook.com/reel/1473874611080671/,1,0,Videos,,,,,Lifetime,3149,1803,93,31,1,61,181,61,112,,8,2187,728,1476,502,1163,40,906,40,908,255,0,0,0,0,14185.397,1001.148,498.984,2568.583,6.785,4.932,3.395,8.858,0,0,18254.112,6.684,0,0,0,0.92,0.92,0.72,0.54,0.42,0.36,0.31,0.28,0.19,0.17,0.16,0.14,0.13,0.12,0.11,0.1,0.09,0.09,0.08,0.08,0.07,0.07,0.07,0.06,0.06,0.05,0.05,0.05,0.05,0.04,0.04,0.03,0.03,0.03,0.02,0.03,0.02,0.02,0.02,0.02,0.02,0.97,0.97,0.99,1,0.99,0.99,0.99,0.99,0.71,0.64,0.58,0.51,0.48,0.45,0.39,0.35,0.32,0.32,0.3,0.28,0.27,0.26,0.24,0.21,0.2,0.19,0.18,0.17,0.16,0.15,0.13,0.12,0.11,0.1,0.09,0.09,0.09,0.09,0.08,0.06,0.06,196,162,157,145,99,84,59,70,63,52,20,49,1142,1,,6,,,,3,2,,1,,,2,,4,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+907153878896110,100088045181015,"3M Lounge","🍹✨ موخيتو فرشك ... موخيتو يتعاش.
+📍 3M Lounge – Denden
+#Mojito #3M_Lounge #Denden #ChillDrink #موخيتو #بنّة #TunisianVibes #دندان #BennaLuxe #رمضان #بنّة","🍹✨ موخيتو فرشك ... موخيتو يتعاش.
+📍 3M Lounge – Denden
+#Mojito #3M_Lounge #Denden #ChillDrink #موخيتو #بنّة #TunisianVibes #دندان #BennaLuxe #رمضان #بنّة",12,"03/13/2026 09:43",N/A,https://www.facebook.com/reel/1252373180183488/,1,0,Videos,,,,,Lifetime,400,276,7,6,1,0,4,,4,,,0,400,0,276,144,0,125,0,0,144,0,0,0,0,0,467.019,0,1387.304,0,6.769,0,5.854,0,0,1854.323,6.059,0,0,0,0.98,0.98,0.99,0.99,0.9,0.81,0.74,0.7,0.62,0.54,0.47,0.4,0.34,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,0.91,,,,,,,,,,,,,,,,,,,,,,,,,,,,,28,37,23,11,15,5,14,2,2,3,1,1,133,2,,,,,,,,,1,1,,1,,4,,,,,,1,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+905687422376089,100088045181015,"3M Lounge","🥤✨ الميلك شيك 3M louange .. ويوفى الكلام!
+بنّة من أول رشفة.. والتصويرة تحكي وحدها.
+📍 3M Lounge – Denden, Manouba​
+#Milkshake #3M_Lounge #Denden #Manouba #ميلك_شيك #بنّة #دندان #AllFlavors #رمضان #Romdhan2026 #Manouba #BennaLuxe","🥤✨ الميلك شيك 3M louange .. ويوفى الكلام!
+بنّة من أول رشفة.. والتصويرة تحكي وحدها.
+📍 3M Lounge – Denden, Manouba​
+#Milkshake #3M_Lounge #Denden #Manouba #ميلك_شيك #بنّة #دندان #AllFlavors #رمضان #Romdhan2026 #Manouba #BennaLuxe",19,"03/11/2026 11:53",N/A,https://www.facebook.com/reel/4326146800953479/,1,0,Videos,,,,,Lifetime,732,660,4,3,1,0,10,,10,,,1,729,4,654,255,0,241,0,1,254,0,0,0,0,9.123,1603.293,0,1492.478,3.041,3.827,0,6.518,0,0,3104.894,4.769,0,0,0,0.99,0.99,0.99,0.99,0.99,0.99,1,1,0.8,0.8,0.67,0.67,0.58,0.58,0.54,0.54,0.46,0.46,0.43,0.42,0.38,0.38,0.35,0.35,0.3,0.3,0.28,0.28,0.27,0.27,0.23,0.23,0.22,0.22,0.2,0.2,0.18,0.18,0.16,0.16,0.14,0.98,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0.93,0.83,0.78,0.67,,,,,,,,,,,,,,,,,,,,,52,69,22,29,15,9,26,5,7,3,5,2,172,,,,,,,,,,,1,,59,9,6,3,2,1,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+905167592428072,100088045181015,"3M Lounge","كيما عودناكم الجديد و العروض الكبرى تلقاوها عنا و على خاطركم المرة هاذي مسرحية من العيار الثقيل 
+🌙✨ سهرة ضحك على كيفكم في رمضان! Mr Propre
+🎭 One Man Show – للفنان الكبير وليد الزين
+ضحك ومواقف طريفة… الجو رمضاني مليان فرحة  و مفاجآت باش تزيد تحلي السهرة 😄
+✨ قريبًا بـ 3M Lounge ✨
+نحبوا نعرفوا رأيكم 👇
+تحبوا نبرمجوا عرض “Mr Propre” في 3M Lounge في رمضان؟
+قولولنا في التعليقات
+#3M_Lounge
+#MrPropre
+#WalidEzzine
+#OneManShow
+#سهرة_رمضانية",,0,"03/10/2026 19:13",N/A,https://www.facebook.com/permalink.php?story_fbid=pfbid0G98PxdHjxMsj88UNpqytAua7wMgy2FR1CT1nAMjBuHBzp8v9HH9SNkeTDF3rncn4l&id=100088045181015,0,0,Photos,,,,,Lifetime,2244,1253,20,13,7,0,88,,75,13,,0,2244,0,1253,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+904896755788489,100088045181015,"3M Lounge","🎶 Live Show à ne pas rater ! 🎶
+👍 Premier arrivé premier servi 
+يستقبلكم 3M Lounge في سهرة موسيقية مميزة مع الفنان
+✨ نبيل بن محمد ✨
+
+📅 ليلة السبت 14 مارس
+🕗 بداية من الساعة الثامنة ليلاً
+
+💥 الدخول مجاني
+
+قعدة بنينة بين الأصحاب والعائلة
+وأجواء موسيقية تونسية على كيفنا ❤️
+
+📞 Infoline : 20133482
+
+#3MLounge
+#LiveShow
+#SoiréeTunisienne
+#نبيل_بن_محمد
+#SortirEnTunisie
+Ambiance",,0,"03/10/2026 09:39",N/A,https://www.facebook.com/permalink.php?story_fbid=pfbid0zoHPQ4ovAn5NJKtJXiNrnRTpM9H6GgvwqjvLszd5K1PAqGvQnC8aYkmGVpDGvuoel&id=100088045181015,0,1,Links,,,,,Lifetime,9607,5501,17,7,0,10,205,110,91,4,,8995,612,5234,322,0,0,2,0,0,0,0,0,0,0,16.191,0,0,0,8.096,0,0,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+904882402456591,100088045181015,"3M Lounge","سهريّة رمضان عندها طعم وحدو.. 🌙✨ 
+قعدة ما تتنساش مع الي تحبهم. 
+‏3M Lounge والبنّة، والذكريات الحلوة. 🤍 
+
+‏#SahriyaRamadan #Romdhan2026 #3M_Lounge #Denden #Manouba RamadanVibes سهرية_رمضان دندان","سهريّة رمضان عندها طعم وحدو.. 🌙✨ 
+قعدة ما تتنساش مع الي تحبهم. 
+‏3M Lounge والبنّة، والذكريات الحلوة. 🤍 
+
+‏#SahriyaRamadan #Romdhan2026 #3M_Lounge #Denden #Manouba RamadanVibes سهرية_رمضان دندان",40,"03/10/2026 09:14",N/A,https://www.facebook.com/reel/1294886929212984/,1,0,Videos,,,,,Lifetime,489,365,8,8,0,0,6,,6,,,0,488,0,365,231,0,205,0,0,231,0,0,0,0,0,1202.045,0,2094.925,0,7.03,0,8.414,0,0,3296.97,7.849,0,0,0,0.99,0.99,0.99,0.99,0.87,0.76,0.56,0.51,0.47,0.42,0.37,0.36,0.32,0.29,0.27,0.27,0.27,0.24,0.23,0.22,0.21,0.2,0.18,0.16,0.16,0.16,0.15,0.15,0.13,0.12,0.12,0.1,0.1,0.09,0.09,0.09,0.09,0.08,0.08,0.07,0.07,0.98,0.98,0.98,0.98,0.98,1,1,1,1,1,1,1,1,1,1,1,0.98,0.89,0.85,0.81,0.77,0.74,0.66,0.61,0.6,0.58,0.53,0.52,0.47,0.44,0.44,0.35,0.34,0.32,0.32,0.32,0.32,0.31,0.29,0.27,0.27,49,54,29,21,29,14,17,1,6,1,,1,229,,,,,1,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+903619982582833,100088045181015,"3M Lounge","⁨ سهرية رمضان ما تكملش بلا جواجم! 🌙🥜
+ جواجم.. Overdose متاع 3M Lounge  بالجودة العالية،  بنّة فوق البنّة!
+والي جرّب، يعرف على واش نحكيو. 🌙✨
+#Overdose #Jawajim #SahriyaRamadan #Romdhan2026 #3M_Lounge #Denden #Manouba #جواجم #سهرية_رمضان #دندان⁩",,0,"03/08/2026 15:37",N/A,https://www.facebook.com/permalink.php?story_fbid=pfbid0uafMeUSRf3ypDKUNuJx6rFnT2jAbd7EqGkjJhJUHMUNifB7oobpQfTJJQuE3DqP7l&id=100088045181015,0,0,Photos,,,,,Lifetime,1279,703,9,5,3,1,10,,8,2,,0,1279,0,703,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+903489229262575,100088045181015,"3M Lounge","تبعا لطلب حرفائنا الكرام ✨
+موعد جديد مع الفنان نبيل بن محمد
+وذلك يوم الأحد 8 مارس 
+🎶 بداية من الساعة الثامنة ليلاً
+في أجواء طربية مميزة ولمة حلوة بين الأصحاب والعائلة.
+📍 3M Lounge
+☎️ للحجز والاستفسار: 20133482
+#3M_Lounge
+#سهرة_طربية
+#ليلة_على_كيفنا
+#لمة_الأحباب
+#Tunisie
+SortirEnTunisie","تبعا لطلب حرفائنا الكرام ✨
+موعد جديد مع الفنان نبيل بن محمد
+وذلك يوم الأحد 8 مارس 
+🎶 بداية من الساعة الثامنة ليلاً
+في أجواء طربية مميزة ولمة حلوة بين الأصحاب والعائلة.
+📍 3M Lounge
+☎️ للحجز والاستفسار: 20133482
+#3M_Lounge
+#سهرة_طربية
+#ليلة_على_كيفنا
+#لمة_الأحباب
+#Tunisie
+SortirEnTunisie",152,"03/08/2026 11:16",uploaded,https://www.facebook.com/reel/2787562914911148/,1,0,Videos,,,,,Lifetime,1269,581,67,16,1,50,37,,37,,,0,1268,0,581,544,22,492,22,0,544,0,0,0,0,0,2903.46,1896.475,4001.567,0,8.416,4.754,9.242,0,0,8801.502,7.477,0,0,0,0.98,0.83,0.4,0.24,0.17,0.13,0.11,0.1,0.08,0.07,0.06,0.06,0.06,0.05,0.06,0.06,0.05,0.04,0.04,0.03,0.03,0.03,0.03,0.03,0.03,0.03,0.03,0.03,0.03,0.03,0.03,0.03,0.03,0.03,0.02,0.02,0.02,0.02,0.02,0.02,0.01,1,1,0.99,0.99,0.99,0.77,0.64,0.57,0.45,0.4,0.35,0.35,0.33,0.29,0.29,0.26,0.23,0.24,0.25,0.21,0.16,0.17,0.16,0.16,0.16,0.16,0.2,0.2,0.21,0.18,0.16,0.15,0.16,0.15,0.14,0.14,0.12,0.12,0.12,0.11,0.09,97,71,68,58,70,49,26,23,31,13,10,11,492,1,1,1,,1,1,1,,1,,1,,13,3,11,4,1,,,1,5,2,2,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+902855189325979,100088045181015,"3M Lounge","تبعا لطلب حرفائنا الكرام ✨
+موعد جديد مع الفنان نبيل بن محمد
+وذلك يوم الأحد 8 فيفري
+🎶 بداية من الساعة الثامنة ليلاً
+في أجواء طربية مميزة ولمة حلوة بين الأصحاب والعائلة.
+📍 3M Lounge
+☎️ للحجز والاستفسار: 20133482
+#3M_Lounge
+#سهرة_طربية
+#ليلة_على_كيفنا
+#لمة_الأحباب
+#Tunisie
+SortirEnTunisie",,0,"03/07/2026 14:34",N/A,https://www.facebook.com/permalink.php?story_fbid=pfbid02tjWuv3ugTXhFWvYKopzP49MNj8dY2BUK8afbdEC6TNGQs3HnThL8SzciMFPH2rn3l&id=100088045181015,0,1,Links,,,,,Lifetime,11150,7922,20,10,10,0,219,124,95,,,10025,1125,7408,535,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1548596663674595,100088045181015,"3M Lounge","سهرتنا انطلقت مع الفنان نبيل بن محمد","سهرتنا انطلقت مع الفنان نبيل بن محمد",338,"03/07/2026 11:28",N/A,https://www.facebook.com/100088045181015/videos/1548596663674595/,0,0,Live,,,,,Lifetime,1934,540,13,13,0,0,22,,22,,,0,1932,0,540,716,13,481,12,0,716,0,0,0,0,0,2369.512,0,8364.865,0,9.01,0,8.25,0,0,10734.377,8.405,0,0,0,1,0.15,0.08,0.05,0.04,0.02,0.02,0.02,0.01,0.01,0.01,0.01,0.01,0.01,0.02,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0,0,0,0,0,0,1,0.99,0.84,0.52,0.39,0.24,0.21,0.16,0.13,0.15,0.13,0.1,0.07,0.09,0.1,0.09,0.09,0.07,0.07,0.04,0.07,0.07,0.06,0.09,0.07,0.1,0.06,0.06,0.07,0.04,0.04,0.06,0.07,0.06,0.06,0.04,0.03,0.03,0.03,0.03,0.01,157,120,112,65,79,64,35,22,16,18,7,6,705,,,,6,1,,,,1,,1,,,,,,,,,1,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1359285302883437,100088045181015,"3M Lounge","Your reel",,189,"03/06/2026 12:32",N/A,https://www.facebook.com/100088045181015/videos/1359285302883437/,0,0,Live,,,,,Lifetime,1197,823,27,26,0,1,68,,68,,,0,1193,0,823,489,41,434,39,0,489,0,0,0,0,0,2878.95,2659.972,5337.594,0,8.914,21.111,10.187,0,0,10876.516,11.178,0,0,0,0.99,0.61,0.39,0.29,0.19,0.17,0.15,0.13,0.11,0.12,0.11,0.1,0.09,0.1,0.09,0.07,0.06,0.06,0.06,0.06,0.05,0.06,0.05,0.04,0.04,0.05,0.04,0.04,0.04,0.05,0.04,0.03,0.04,0.04,0.04,0.04,0.04,0.03,0.03,0.02,0.02,1,0.99,0.95,0.91,0.63,0.54,0.49,0.42,0.36,0.38,0.34,0.32,0.3,0.32,0.29,0.23,0.2,0.18,0.16,0.18,0.17,0.18,0.14,0.13,0.14,0.16,0.14,0.12,0.13,0.14,0.12,0.1,0.12,0.14,0.12,0.13,0.12,0.09,0.1,0.06,0.05,97,95,71,48,47,55,13,14,13,8,6,6,469,4,,,,1,,,2,4,1,,,1,,,,,,,4,2,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,
+902014892743342,100088045181015,"3M Lounge","🌙 رمضان ما يكملش كان مع من تحبهم! 🤍
+وأحلى لقاء عائلي.. فيه جو، بنّة، وذكرى تبقى. ✨
+مرحبا بيكم الناس الكل 🍽️👨‍👩‍👧‍👦
+📍 3M Lounge – Denden, Manouba
+#Launch #3M_Lounge #FamilyIftar #RamadanVibes #Romdhan2026 #Denden #Manouba #TunisianVibes #لقاء_عايلي #رمضان #دندان #بنّة #SahriyaRamadan","🌙 رمضان ما يكملش كان مع من تحبهم! 🤍
+وأحلى لقاء عائلي.. فيه جو، بنّة، وذكرى تبقى. ✨
+مرحبا بيكم الناس الكل 🍽️👨‍👩‍👧‍👦
+📍 3M Lounge – Denden, Manouba
+#Launch #3M_Lounge #FamilyIftar #RamadanVibes #Romdhan2026 #Denden #Manouba #TunisianVibes #لقاء_عايلي #رمضان #دندان #بنّة #SahriyaRamadan",22,"03/06/2026 11:36",N/A,https://www.facebook.com/reel/1913668899253682/,1,0,Videos,,,,,Lifetime,2154,2121,18,17,0,1,66,26,39,,1,448,1683,645,1626,779,0,695,0,171,608,0,0,0,0,2712.548,4686.403,90.159,3451.171,7.215,4.494,3.757,8.716,0,0,10940.281,5.949,0,0,0,0.99,0.99,0.99,0.99,0.99,0.99,0.99,0.86,0.86,0.73,0.61,0.61,0.54,0.53,0.47,0.42,0.42,0.38,0.38,0.36,0.33,0.33,0.32,0.3,0.3,0.29,0.29,0.27,0.26,0.26,0.24,0.24,0.23,0.22,0.22,0.22,0.22,0.21,0.21,0.21,0.2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0.96,0.92,0.88,0.85,0.84,0.81,0.78,,,,,,,,,,,,,,,,,177,143,79,87,57,57,32,38,28,29,14,19,726,8,1,9,1,1,,22,,2,2,4,,1,,,,,,,,,,1,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+901889102755921,100088045181015,"3M Lounge","⁨ 💚🥞 الفستق مش زينة.. الفستق بنّة! 😍
+موش كل الكريب يستاهل الكلام.. هذا واحد من اللي يستاهلو. ✨
+التصويرة تحكي وحدها.. والذواقة يفهموا. 👀🤫
+📍 3M Lounge – Denden, Manouba
+#Crepe #CrepePistachio #Pistache #BennaLuxe #3M_Lounge #Denden #Manouba #TunisianFoodies #كريب #فستق #بنّة #دندان #Romdhan2026 #SurLaMouche⁩",,0,"03/06/2026 07:44",N/A,https://www.facebook.com/permalink.php?story_fbid=pfbid02kV4qrAR3Gb7W64ZbDCzrjnJowpuDc5MR7GqwteFApjh78J3Ni1XXCAc8Zb426vbtl&id=100088045181015,0,0,Photos,,,,,Lifetime,1037,593,3,2,0,1,2,1,,1,,0,1037,0,593,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+901358562808975,100088045181015,"3M Lounge","🌙 سهرة ""لَمّة الأحباب"" في 3M Lounge 🌙
+قعدة بنينة بين الأصحاب و العائلة
+و أجواء طربية مميزة 🎶
+🎤 مع الفنان نبيل محمد
+📅 الجمعة و السبت
+🕗 بداية من الساعة 20:00
+✨ الدخول مجاني
+📍 3M Lounge – Den Den
+📞 للحجز و الاستفسار: 20133482
+مرحبا بالناس الكل لقعدة رمضانية مزيانة و سهرة ما تتفوتش 🤩
+#3MLounge
+#لمة_الأحباب
+#سهرات_رمضان
+#قعدة_تونسية
+#tunisia_Night",,0,"03/05/2026 14:01",N/A,https://www.facebook.com/permalink.php?story_fbid=pfbid03eQjfisKHyaAaZz1iRXYiU3jFTH9KcvQoshGkLJvU6C7wDLzBm8fcRhRpWfYNWwQl&id=100088045181015,0,1,Links,,,,,Lifetime,8507,5426,14,13,0,1,215,103,110,2,,7758,749,5168,390,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+901252459486252,100088045181015,"3M Lounge","🌙🍲 شقان الفطر في 3M Lounge.. بنّة تونسية على أصولها! 😍
+
+منيو نهار الجمعة والسبت حاضر كل ما تشتهي العين. 🍗🥗
+وما نسيناش الطلبة.. دلّلناكم بسوم سبيسيال (20dt برك)! 🎓🔥
+
+الريزرفاسيون لازمة (📞 20.133.482).. والذواقة يعرفوا الثنية. 🤫👀
+
+📍 3M Lounge – Denden, Manouba
+
+#Iftar #MenuIftar #Romdhan2026 #BennaLuxe #3M_Lounge Denden Manouba TunisianFoodies شقان_الفطر رمضان بنّة دندان",,0,"03/05/2026 10:14",N/A,https://www.facebook.com/permalink.php?story_fbid=pfbid02BssjpZfphMEqicdhHtzkoEYLUchPyFpV7wyW6h31t5LRrQv6cJKnhYfHkTQVX17Wl&id=100088045181015,0,0,Photos,,,,,Lifetime,3595,2255,13,10,3,0,249,37,66,146,,385,3210,280,2057,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+899772366300928,100088045181015,"3M Lounge","⁨ 🧀✨ السرّ الكل في البنّة! 😍
+
+هذي موش أي كونافة..
+هذي حاجة Luxe وعلى أصولها. 🍯
+مخدومة بفنّ وبقلب، باش تعطيك الطعم الأصلي اللي يخليك ترجعلو ديما. 🔥
+
+واللي جرّب، يعرف على شنو نحكيو. 🤫👀
+
+#Kunefe #Kounefa #OriginalTaste #BennaLuxe #KunefeLovers #3M_Lounge #Denden #Manouba #TunisianFoodies #SurLaMouche #كونافة #بنة_تونسية #على_أصولها #رمضان #Romdhan2026⁩",,0,"03/03/2026 10:11",N/A,https://www.facebook.com/permalink.php?story_fbid=pfbid02ohGdXiEn98FMqT3meMdsYEu8dCKf17T3bPqRwA68siNpCaYgD1sfjVNBsfBqiJzwl&id=100088045181015,0,0,Photos,,,,,Lifetime,896,506,4,3,0,1,7,,7,,,0,896,0,506,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+899772306300934,100088045181015,"3M Lounge","🥞✨ كريب؟ عندنا كل الأنواع وكل البنّة
+كل النكهات، كل البنّة، وكل مرّة تجربة جديدة. 🍓🍫🧀
+واللي جرّب، يعرف على شنو نحكيو. 🤫👀
+📍 3M Lounge – Denden, Manouba
+#Crepe #CrepeLover #AllFlavors #BennaLuxe #3M_Lounge #Denden #Manouba #TunisianFoodies #كريب #بنّة #دندان #رمضان #Romdhan2026 #SurLaMouche","🥞✨ كريب؟ عندنا كل الأنواع وكل البنّة
+كل النكهات، كل البنّة، وكل مرّة تجربة جديدة. 🍓🍫🧀
+واللي جرّب، يعرف على شنو نحكيو. 🤫👀
+📍 3M Lounge – Denden, Manouba
+#Crepe #CrepeLover #AllFlavors #BennaLuxe #3M_Lounge #Denden #Manouba #TunisianFoodies #كريب #بنّة #دندان #رمضان #Romdhan2026 #SurLaMouche",39,"03/03/2026 10:11",N/A,https://www.facebook.com/reel/4475190162710529/,1,0,Videos,,,,,Lifetime,2251,1628,109,25,2,82,70,25,44,,1,566,1634,813,1005,761,0,685,0,242,519,0,0,0,0,3696.024,3368.123,2250.531,4453.532,6.795,6.069,5.047,9.875,0,0,13768.21,6.897,0,0,0,0.98,0.98,0.99,0.99,0.82,0.7,0.61,0.56,0.52,0.49,0.45,0.42,0.4,0.39,0.38,0.36,0.34,0.32,0.31,0.3,0.28,0.27,0.27,0.25,0.24,0.23,0.22,0.22,0.21,0.2,0.19,0.19,0.18,0.17,0.17,0.16,0.15,0.15,0.14,0.14,0.13,0.99,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0.97,0.92,0.89,0.84,0.81,0.77,0.75,0.7,0.69,0.66,0.61,0.61,0.58,0.56,0.54,0.52,0.5,0.49,0.47,0.43,0.42,0.41,0.4,0.38,0.37,152,107,71,79,75,60,51,46,32,40,14,20,720,9,,24,1,1,1,,,,1,,,2,,,,,,,,1,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+896380166640148,100088045181015,"3M Lounge","🎶✨ سهرة موسيقية و أجواء تونسية أصيلة ✨🎶
+📍 في 3M Lounge – Den Den
+🗓️ ليلة السبت 28 فيفري
+🕗 بداية من الساعة الثامنة ليلاً
+نغنيوا، نفرحوا و نعيشوا أجواء تونسية 100% 🇹🇳
+لمة طيبة، موسيقى و طاقة إيجابية حتى آخر الليل 💃🕺
+🎟️ الدخول مجاني
+📞 للاستفسار: 20133482
+#3MLounge
+#3M_Lounge_DenDen
+#سهرة_موسيقية
+#أجواء_تونسية
+#ليلة_السبت
+خروج_في_تونس
+DenDen
+الدخول_مجاني
+LiveMusic
+AmbianceTunisienne
+SoiréeTunisienne
+WeekendVibes",,0,"02/27/2026 05:11",N/A,https://www.facebook.com/permalink.php?story_fbid=pfbid037SaLTrce2Jvfp1Y7YzPTtYXbgsw6DNLpZkPBxxdKSMcCW5FPS9SsPqWPa4XjnsNBl&id=100088045181015,0,0,Photos,,,,,Lifetime,2526,1394,9,8,0,1,22,,3,19,,0,2526,0,1394,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+895906600020838,100088045181015,"3M Lounge","🎶✨ سهرة موسيقية و أجواء تونسية أصيلة ✨🎶
+📍 في 3M Lounge – Den Den
+🗓️ ليلة السبت 28 فيفري
+🕗 بداية من الساعة الثامنة ليلاً
+نغنيوا، نفرحوا و نعيشوا أجواء تونسية 100% 🇹🇳
+لمة طيبة، موسيقى و طاقة إيجابية حتى آخر الليل 💃🕺
+🎟️ الدخول مجاني
+📞 للاستفسار: 20133482
+#3MLounge
+#3M_Lounge_DenDen
+#سهرة_موسيقية
+#أجواء_تونسية
+#ليلة_السبت
+خروج_في_تونس
+DenDen
+الدخول_مجاني
+LiveMusic
+AmbianceTunisienne
+SoiréeTunisienne
+WeekendVibes","🎶✨ سهرة موسيقية و أجواء تونسية أصيلة ✨🎶
+📍 في 3M Lounge – Den Den
+🗓️ ليلة السبت 28 فيفري
+🕗 بداية من الساعة الثامنة ليلاً
+نغنيوا، نفرحوا و نعيشوا أجواء تونسية 100% 🇹🇳
+لمة طيبة، موسيقى و طاقة إيجابية حتى آخر الليل 💃🕺
+🎟️ الدخول مجاني
+📞 للاستفسار: 20133482
+#3MLounge
+#3M_Lounge_DenDen
+#سهرة_موسيقية
+#أجواء_تونسية
+#ليلة_السبت
+خروج_في_تونس
+DenDen
+الدخول_مجاني
+LiveMusic
+AmbianceTunisienne
+SoiréeTunisienne
+WeekendVibes",31,"02/26/2026 15:05",N/A,https://www.facebook.com/reel/939791301831528/,1,0,Videos,,,,,Lifetime,15417,12587,244,73,6,165,515,16,422,,77,2713,12389,2693,10130,7415,0,7033,0,1576,5839,0,0,0,0,21279.284,49692.539,13747.506,13999.214,8.129,5.899,8.064,12.09,0,0,98718.543,7.099,0,0,0,0.98,0.98,0.99,0.99,0.99,0.85,0.85,0.71,0.63,0.55,0.49,0.49,0.46,0.42,0.36,0.33,0.33,0.3,0.29,0.27,0.26,0.26,0.24,0.22,0.2,0.19,0.19,0.17,0.16,0.16,0.15,0.15,0.15,0.14,0.13,0.13,0.13,0.12,0.11,0.11,0.1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0.91,0.84,0.78,0.71,0.66,0.63,0.6,0.59,0.57,0.55,0.52,0.49,0.46,0.44,0.42,0.4,,,,,,,,,1219,1199,869,712,691,684,445,311,397,270,191,264,7246,42,17,11,,7,3,1,1,10,3,16,,10,2,10,5,1,,,3,4,,4,1,,2,2,1,1,,1,,,,,1,3,,,3,,1,,,,,,,,,,,,,,,,1,1,1
+894976186780546,100088045181015,"3M Lounge","🌙 سهرية رمضان ما تكملش بلا Overdose! 🥜🔥
+رمضان من غير سهرية ناقص، وسهرية  من غير جواجم ما تحلاش! 🤫
+بنّة تكلّم روحها.. والتصويرة تحكي وحدها. 👀
+#Overdose #Jawajim #SahriyaRamadan #Romdhan2026 #3M_Lounge #Denden #Manouba #جواجم #سهرية_رمضان #رمضان #دندان #TunisianVibes","🌙 سهرية رمضان ما تكملش بلا Overdose! 🥜🔥
+رمضان من غير سهرية ناقص، وسهرية  من غير جواجم ما تحلاش! 🤫
+بنّة تكلّم روحها.. والتصويرة تحكي وحدها. 👀
+#Overdose #Jawajim #SahriyaRamadan #Romdhan2026 #3M_Lounge #Denden #Manouba #جواجم #سهرية_رمضان #رمضان #دندان #TunisianVibes",37,"02/25/2026 12:10",N/A,https://www.facebook.com/reel/1192149519383753/,1,0,Videos,,,,,Lifetime,3475,3131,33,26,7,0,103,,103,,,0,3469,0,3131,1077,0,1008,0,0,1077,0,0,0,0,0,13319.102,0,7149.898,0,5.439,0,10.085,0,0,20469,6.481,0,0,0,0.99,0.99,0.99,0.99,0.9,0.78,0.69,0.63,0.59,0.55,0.52,0.48,0.45,0.43,0.41,0.41,0.39,0.38,0.37,0.36,0.35,0.34,0.33,0.31,0.3,0.29,0.28,0.27,0.26,0.25,0.25,0.23,0.22,0.21,0.19,0.16,0.15,0.15,0.14,0.13,0.12,1,1,1,1,1,0.99,0.99,0.99,0.99,0.99,0.99,1,1,1,1,1,1,0.98,0.95,0.92,0.91,0.88,0.86,0.81,0.78,0.75,0.72,0.69,0.67,0.65,0.63,0.61,0.58,0.53,0.48,0.42,0.4,0.38,0.36,0.34,0.31,247,242,89,116,75,89,88,22,31,21,17,8,985,16,,21,,1,,41,,4,,5,,,,,,,,,,,,2,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,1
+1415201553637339,100088045181015,"3M Lounge","Joyeux anniversaire sousou","Joyeux anniversaire sousou",375,"02/21/2026 11:43",N/A,https://www.facebook.com/100088045181015/videos/1415201553637339/,0,0,Live,,,,,Lifetime,2921,2246,64,56,4,4,158,,158,,,0,2914,0,2246,1550,105,1297,93,0,1550,0,0,0,0,0,16232.14,4514.847,15520.332,0,12.487,31.137,13.983,0,0,36267.319,14.194,0,0,0,0.98,0.37,0.19,0.15,0.1,0.09,0.07,0.06,0.05,0.05,0.04,0.04,0.04,0.03,0.03,0.03,0.03,0.03,0.02,0.02,0.02,0.02,0.02,0.02,0.02,0.02,0.02,0.01,0.02,0.02,0.02,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.02,0.01,0.01,1,0.99,0.79,0.59,0.42,0.35,0.3,0.24,0.21,0.18,0.17,0.15,0.15,0.13,0.13,0.12,0.11,0.1,0.1,0.1,0.1,0.09,0.1,0.08,0.07,0.07,0.07,0.06,0.07,0.07,0.07,0.05,0.05,0.06,0.06,0.06,0.05,0.05,0.06,0.05,0.05,323,285,194,177,142,110,81,66,43,37,22,18,1518,9,5,4,3,2,2,2,1,1,1,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+884873957774653,100088045181015,"3M Lounge","سهريتنا بدات نستناوكم ♥️♥️","سهريتنا بدات نستناوكم ♥️♥️",237,"02/21/2026 11:12",N/A,https://www.facebook.com/100088045181015/videos/884873957774653/,0,0,Live,,,,,Lifetime,1938,1102,17,16,1,0,60,,60,,,0,1932,0,1102,782,40,615,38,0,782,0,0,0,0,0,4281.388,0,10351.233,0,7.319,0,10.908,0,0,14632.621,9.538,0,0,0,0.99,0.43,0.25,0.18,0.15,0.11,0.09,0.08,0.07,0.07,0.05,0.05,0.05,0.04,0.04,0.03,0.03,0.03,0.03,0.03,0.03,0.02,0.02,0.02,0.02,0.02,0.02,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,1,0.98,0.98,0.85,0.69,0.52,0.42,0.37,0.35,0.32,0.26,0.25,0.23,0.18,0.18,0.15,0.13,0.13,0.11,0.13,0.12,0.1,0.09,0.09,0.09,0.07,0.08,0.06,0.06,0.06,0.06,0.06,0.04,0.05,0.04,0.04,0.04,0.04,0.04,0.03,0.03,159,163,108,90,67,49,38,22,21,19,14,10,774,1,2,,1,2,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+891560913788740,100088045181015,"3M Lounge","السرّ الكل في البنّة! 😍
+هذي موش أي كونافة، هذي حاجة Luxe وعلى أصولها. مخدومة بفنّ باش تعطيك الطعم الأصلي اللي يخليك ترجعلو ديما.
+ما تحكيش برشا، خلي التصويرة تحكي وحدها.. والذواقة يعرفوا الثنية! 📍🏃‍♂️
+#Kunefe #OriginalTaste #BennaLuxe #KunefeLovers #3M_Lounge #Denden #Manouba #TunisianFoodies #SurLaMouche #كونافة #بنة_تونسية #على_أصولها","السرّ الكل في البنّة! 😍
+هذي موش أي كونافة، هذي حاجة Luxe وعلى أصولها. مخدومة بفنّ باش تعطيك الطعم الأصلي اللي يخليك ترجعلو ديما.
+ما تحكيش برشا، خلي التصويرة تحكي وحدها.. والذواقة يعرفوا الثنية! 📍🏃‍♂️
+#Kunefe #OriginalTaste #BennaLuxe #KunefeLovers #3M_Lounge #Denden #Manouba #TunisianFoodies #SurLaMouche #كونافة #بنة_تونسية #على_أصولها",26,"02/21/2026 09:08",N/A,https://www.facebook.com/reel/2130762660990664/,1,0,Videos,,,,,Lifetime,20047,16929,167,103,3,61,69,,69,,,0,20033,0,16929,3829,0,3618,0,0,3829,0,0,0,0,0,58855.625,2997.921,9959.258,0,3.571,5.134,8.513,0,0,71812.804,3.937,0,0,0,0.99,1,1,1,0.86,0.72,0.59,0.51,0.46,0.42,0.39,0.35,0.33,0.31,0.29,0.28,0.27,0.26,0.25,0.24,0.23,0.22,0.21,0.2,0.19,0.18,0.18,0.17,0.16,,,,,,,,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0.97,0.94,0.91,0.87,0.82,0.78,0.74,0.7,0.69,0.66,0.64,0.6,,,,,,,,,,,,,439,477,542,256,438,537,210,122,216,95,172,157,1270,120,21,469,,56,9,246,12,11,15,27,9,340,124,194,61,33,,,15,76,7,6,22,,,,,,18,7,,,22,,,,10,143,98,38,25,25,22,21,17,16,16,15,13,9,9,8,7,7,7,6,,,
+1366277925268787,100088045181015,"3M Lounge","بداية سهرتنا","بداية سهرتنا",190,"02/20/2026 11:04",N/A,https://www.facebook.com/100088045181015/videos/1366277925268787/,0,0,Live,,,,,Lifetime,4708,2025,38,34,4,0,147,,147,,,0,4693,0,2025,1932,58,1460,55,0,1932,0,0,0,0,0,8630.749,0,23975.581,0,8.074,0,11.095,0,0,32606.33,10.094,0,0,0,1,0.43,0.25,0.19,0.14,0.11,0.09,0.08,0.06,0.05,0.04,0.04,0.03,0.03,0.03,0.03,0.02,0.02,0.02,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0,0,0,1,0.99,0.98,0.97,0.77,0.6,0.5,0.44,0.36,0.26,0.22,0.2,0.18,0.16,0.16,0.15,0.12,0.1,0.09,0.08,0.08,0.07,0.07,0.07,0.06,0.05,0.05,0.05,0.05,0.05,0.06,0.04,0.04,0.03,0.03,0.03,0.03,0.03,0.03,0.03,0.02,434,346,297,220,200,153,57,48,47,41,20,24,1892,19,7,2,1,1,,,1,3,2,,,,,,,,,,,1,,1,,,,,,,,1,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,
+889262750685223,100088045181015,"3M Lounge","🌙✨ سهرة رمضانية مميزة في 3M Lounge ✨🌙
+
+موعدكم مع سهرة طربية أصيلة و أجواء رمضانية ساحرة 🎶
+مع الفنان 🎤 عامر صويد
+
+📅 ليلة السبت 21 فيفري
+📍 3M Lounge – Den Den
+
+🎟️ الدخول مجاني
+⏳ Premier arrivé, premier servi
+
+📞 Tel: 20133482
+
+عيشوا سحر رمضان… و خلّي السهرة تحلى بحضوركم 🌙💫",,0,"02/18/2026 15:52",N/A,https://www.facebook.com/permalink.php?story_fbid=pfbid0uVreoZELoqLpWh8UeQE3j237LFLwAMQYvir86QaF62CzogeTWk64gvpVL9J3tp6Jl&id=100088045181015,0,0,Photos,,,,,Lifetime,7159,4196,38,21,5,12,98,,74,24,,0,7159,0,4196,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+889184287359736,100088045181015,"3M Lounge","🌙✨ سهرة رمضانية ✨🌙
+استعدوا لليلة استثنائية من الطرب الأصيل و الأجواء الرمضانية الراقية مع:
+🌟 Les Super Stars
+🎤 Ramzi Ibrahim
+🎶 Hedi Land
+📅 ليلة الجمعة 20 فيفري
+🕯️ أجواء رمضانية ساحرة و لحظات فنية لا تُنسى
+📞 الحجز إجباري
+⚠️ عدد البقاع محدود
+للحجز: 20133482
+عيشوا سحر رمضان… و خلي الذكريات تبدأ من هنا 🌙💫",,0,"02/18/2026 13:16",N/A,https://www.facebook.com/permalink.php?story_fbid=pfbid0fVYyW7WfbSKEQMGkMcc9xKL7CXW4mDEYzsaGDP89dcXDbTRx1aLZZ69mdudhU3UZl&id=100088045181015,0,0,Photos,,,,,Lifetime,1103,511,44,9,5,30,28,,21,7,,0,1103,0,511,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+889073970704101,100088045181015,"3M Lounge","هلّ هلالو.. ومحلاها أياماتو! 🌙🕌
+
+رمضان مبروك على الناس الكل، ربي يحييكم لأمثالو بالخير والهناء. ❤️
+استناونا في سهرات و ""جو"" رمضاني سبيسيال في 3M Lounge. ☕✨
+
+#Romdhan2026 #RamadanVibes #Sahriya #Denden #Manouba #JawTunisi #سنين_دايمة",,0,"02/18/2026 09:56",N/A,https://www.facebook.com/permalink.php?story_fbid=pfbid02pncTZFz4baeBatrCTmVzupvXzMsQZyfPrGZvHHsJURsf1LNcXJUge2twoBvfvLfUl&id=100088045181015,0,0,Photos,,,,,Lifetime,1523,785,46,16,9,21,39,,32,7,,0,1523,0,785,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+886627760948722,100088045181015,"3M Lounge","نودّك ولا نشهّيك.. 🤤البنّة.. ملّخر! 😍
+السعادة هي كريب 3M Lounge.
+
+#3M_Lounge #Crepe  #Denden  #كريب #بنة #دندان",,0,"02/15/2026 11:29",N/A,https://www.facebook.com/permalink.php?story_fbid=pfbid09VcifD5JozH6et3cYdRBpnMjNdBHw5kKF8pW9o7MKpXbXUHupZmkAn9izNCgx29ml&id=100088045181015,0,0,Photos,,,,,Lifetime,1377,710,15,11,3,1,14,,7,7,,0,1377,0,710,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1569428564166241,100088045181015,"3M Lounge",Complet,Complet,851,"02/14/2026 12:24",N/A,https://www.facebook.com/100088045181015/videos/1569428564166241/,0,0,Live,,,,,Lifetime,2680,1630,48,38,9,1,137,,137,,,0,2654,0,1630,1226,162,937,129,0,1226,0,0,0,0,0,11648.185,830.485,34624.985,0,14.31,37.75,26.717,0,0,47103.655,22.093,0,0,0,0.99,0.25,0.15,0.09,0.07,0.06,0.05,0.05,0.05,0.04,0.04,0.04,0.03,0.03,0.04,0.03,0.03,0.03,0.03,0.03,0.02,0.03,0.03,0.03,0.03,0.02,0.02,0.02,0.02,0.02,0.02,0.02,0.02,0.02,0.02,0.02,0.01,0.01,0.02,0.01,0.01,1,0.84,0.52,0.32,0.25,0.22,0.18,0.17,0.16,0.14,0.12,0.12,0.12,0.11,0.13,0.11,0.1,0.1,0.11,0.09,0.08,0.09,0.09,0.09,0.09,0.07,0.06,0.07,0.07,0.07,0.07,0.07,0.08,0.08,0.08,0.06,0.05,0.05,0.06,0.05,0.03,271,230,184,137,97,91,44,44,38,32,19,21,1204,4,2,1,4,2,,1,1,1,1,3,,,,,,,,,,,,,,,,,,,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+883116654633166,100088045181015,"3M Lounge","مرحبا بكم في 3M Lounge 🤍
+وين الديكور يهبّل، الجو دافي، والضحكة ديما حاضرة في قلب دندان.
+
+#3M_Lounge #MarhbaBikom #Denden #LaManouba #Tunis #Tn #TunisianVibes #welcomebaby","مرحبا بكم في 3M Lounge 🤍
+وين الديكور يهبّل، الجو دافي، والضحكة ديما حاضرة في قلب دندان.
+
+#3M_Lounge #MarhbaBikom #Denden #LaManouba #Tunis #Tn #TunisianVibes #welcomebaby",27,"02/11/2026 09:58",N/A,https://www.facebook.com/reel/1219018130383261/,1,0,Videos,,,,,Lifetime,8056,4795,124,61,9,54,153,27,125,,1,3515,4318,2929,2127,3214,0,2663,0,1624,1590,0,0,0,0,22549.645,9971.445,2970.965,12359.27,6.778,6.747,5.176,8.052,1,1,47851.325,6.92,0,0,0,0.99,0.99,0.99,0.99,0.99,0.99,0.86,0.86,0.77,0.68,0.62,0.62,0.56,0.53,0.53,0.49,0.46,0.43,0.43,0.4,0.38,0.37,0.36,0.34,0.33,0.22,0.2,0.19,0.19,0.18,0.17,0.17,0.16,0.15,0.15,0.15,0.14,0.13,0.13,0.13,0.12,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0.98,0.62,0.58,0.56,0.53,0.49,0.47,0.44,0.42,0.39,0.38,0.36,0.35,,,,,,,,,,,,,451,411,401,274,378,270,146,153,267,126,93,199,3181,8,3,,3,1,,1,2,4,3,2,1,,,,,,,,,1,,,,,1,,2,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

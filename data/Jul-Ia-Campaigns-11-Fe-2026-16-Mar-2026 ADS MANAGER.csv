@@ -1,0 +1,15 @@
+"Reporting starts","Reporting ends","Campaign name","Campaign delivery",Results,"Result indicator","Cost per results","Ad set budget","Ad set budget type","Amount spent (EUR)",Impressions,Reach,"Total messaging contacts","New messaging contacts",Purchases,Ends,"Attribution setting","Cost per purchase (EUR)","Messaging conversations started","Cost per messaging conversation started (EUR)"
+2026-02-11,2026-03-16,,0,,,,0,0,82.62,195615,135398,,,,,"Multiple attribution settings",,,
+2026-02-11,2026-03-16,"El Mednini_Local_Engagement_5USD – V2",inactive,,,,5,Lifetime,0,0,0,,,,2026-01-17,-,,,
+2026-02-11,2026-03-16,El_Mednini_Awareness_Jan_5EUR_Final,archived,,,,"Using ad set budget",0,0,0,0,,,,1970-01-01,-,,,
+2026-02-11,2026-03-16,El_Mednini_Awareness_Jan_5EUR_Final,inactive,,,,"Using ad set budget",0,0,0,0,,,,2026-01-26,-,,,
+2026-02-11,2026-03-16,"3M Lounge - Post Engagement - Feb 2026",inactive,17135,actions:post_engagement,0.00075635,"Using ad set budget",0,12.96,66074,49130,15,14,,2026-03-01,"7-day click or 1-day view",,14,0.925714
+2026-02-11,2026-03-16,"9achech store 1st ad",archived,,,,17,Daily,14.41,22595,18138,2,2,,2026-03-07,"7-day click or 1-day view",,2,7.205
+2026-02-11,2026-03-16,"9achech store",inactive,163,actions:onsite_conversion.messaging_conversation_started_7d,0.08644172,4,Daily,14.09,26063,15438,184,162,,2026-03-10,"7-day click or 1-day view",,163,0.086442
+2026-02-11,2026-03-16,"3m lounge campaign",archived,,,,13,Lifetime,0,0,0,,,,1970-01-01,-,,,
+2026-02-11,2026-03-16,"3M Lounge second half romdhan",inactive,46,actions:onsite_conversion.messaging_conversation_started_7d,0.28195652,13,Lifetime,12.97,18440,10591,47,43,,2026-03-12,"7-day click or 1-day view",,46,0.281957
+2026-02-11,2026-03-16,"REDIX | Engagement | WA | TN | $35L | Cat_v1",inactive,4,actions:onsite_conversion.messaging_conversation_started_7d,0.67,"Using ad set budget",0,2.68,1673,1388,4,4,,2026-03-16,"7-day click or 1-day view",,4,0.67
+2026-02-11,2026-03-16,"REDIX | Engagement | WA | TN | $35L | Cat_v1 – Copy",inactive,18,actions:onsite_conversion.messaging_conversation_started_7d,0.83833333,"Using ad set budget",0,15.09,9720,6089,19,18,,2026-03-16,"7-day click or 1-day view",,18,0.838333
+2026-02-11,2026-03-16,"amber 1 bouaziz",archived,,,,"Using ad set budget",0,0,0,0,,,,2026-03-15,-,,,
+2026-02-11,2026-03-16,"amber 1 bouaziz",active,64,actions:onsite_conversion.messaging_conversation_started_7d,0.1209375,"Using ad set budget",0,7.74,13641,11179,64,58,,2026-03-19,"7-day click or 1-day view",,64,0.120938
+2026-02-11,2026-03-16,"last 10 dolar louange",active,35002,reach,0.07656705,"Using ad set budget",0,2.68,37409,35002,3,3,,Ongoing,"7-day click or 1-day view",,3,0.893333

@@ -1,0 +1,783 @@
+<!doctype html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3M Lounge – Rapport de Performance</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- SIDEBAR -->
+    <nav class="sidebar" id="sidebar">
+      <div class="sidebar-brand">
+        <div class="brand-icon">3M</div>
+        <span class="brand-text">Lounge</span>
+      </div>
+      <ul class="nav-menu">
+        <li class="nav-item active" data-tab="overview">
+          <i class="fas fa-chart-pie"></i>
+          <span data-i18n="nav_overview">Vue d'ensemble</span>
+        </li>
+        <li class="nav-item" data-tab="facebook">
+          <i class="fab fa-facebook"></i>
+          <span data-i18n="nav_facebook">Facebook</span>
+        </li>
+        <li class="nav-item" data-tab="instagram">
+          <i class="fab fa-instagram"></i>
+          <span data-i18n="nav_instagram">Instagram</span>
+        </li>
+        <li class="nav-item" data-tab="tiktok">
+          <i class="fab fa-tiktok"></i>
+          <span data-i18n="nav_tiktok">TikTok</span>
+        </li>
+        <li class="nav-item" data-tab="publications">
+          <i class="fas fa-trophy"></i>
+          <span data-i18n="nav_publications">Publications</span>
+        </li>
+        <li class="nav-item" data-tab="ads">
+          <i class="fas fa-bullhorn"></i>
+          <span data-i18n="nav_ads">Ads Manager</span>
+        </li>
+      </ul>
+      <div class="sidebar-footer">
+        <button class="lang-switch" id="langBtn" onclick="toggleLang()">
+          <i class="fas fa-language"></i>
+          <span id="langLabel">العربية</span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- MOBILE HEADER -->
+    <div class="mobile-header">
+      <button class="hamburger" onclick="toggleSidebar()">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="brand-icon brand-icon-sm">3M</div>
+      <button class="lang-switch-sm" onclick="toggleLang()">
+        <i class="fas fa-language"></i>
+      </button>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content" id="mainContent">
+      <!-- HEADER -->
+      <header class="page-header">
+        <div>
+          <h1 data-i18n="report_title">Rapport de Performance – 3M Lounge</h1>
+          <p class="subtitle" data-i18n="report_period">
+            Période : 11 Février 2026 – 16 Mars 2026
+          </p>
+        </div>
+        <div class="header-badge">
+          <i class="fas fa-calendar-alt"></i>
+          <span>34 <span data-i18n="days">jours</span></span>
+        </div>
+      </header>
+
+      <!-- ====== OVERVIEW TAB ====== -->
+      <section class="tab-content active" id="tab-overview">
+        <!-- KPI CARDS -->
+        <div class="kpi-grid">
+          <div class="kpi-card kpi-gold">
+            <div class="kpi-icon"><i class="fas fa-user-plus"></i></div>
+            <div class="kpi-data">
+              <span class="kpi-value" id="kpi-followers">539</span>
+              <span class="kpi-label" data-i18n="kpi_new_followers"
+                >Nouveaux Abonnés</span
+              >
+            </div>
+          </div>
+          <div class="kpi-card kpi-blue">
+            <div class="kpi-icon"><i class="fas fa-eye"></i></div>
+            <div class="kpi-data">
+              <span class="kpi-value" id="kpi-views">374,785</span>
+              <span class="kpi-label" data-i18n="kpi_total_views"
+                >Vues Totales</span
+              >
+            </div>
+          </div>
+          <div class="kpi-card kpi-green">
+            <div class="kpi-icon"><i class="fas fa-hand-pointer"></i></div>
+            <div class="kpi-data">
+              <span class="kpi-value" id="kpi-interactions">3,324</span>
+              <span class="kpi-label" data-i18n="kpi_interactions"
+                >Interactions</span
+              >
+            </div>
+          </div>
+          <div class="kpi-card kpi-purple">
+            <div class="kpi-icon"><i class="fas fa-comments"></i></div>
+            <div class="kpi-data">
+              <span class="kpi-value" id="kpi-messages">78</span>
+              <span class="kpi-label" data-i18n="kpi_messages"
+                >Conversations Ads</span
+              >
+            </div>
+          </div>
+          <div class="kpi-card kpi-red">
+            <div class="kpi-icon"><i class="fas fa-dollar-sign"></i></div>
+            <div class="kpi-data">
+              <span class="kpi-value" id="kpi-spent">$40.00</span>
+              <span class="kpi-label" data-i18n="kpi_spent"
+                >Budget Publicitaire</span
+              >
+            </div>
+          </div>
+          <div class="kpi-card kpi-teal">
+            <div class="kpi-icon"><i class="fas fa-bullseye"></i></div>
+            <div class="kpi-data">
+              <span class="kpi-value" id="kpi-reach">68,500</span>
+              <span class="kpi-label" data-i18n="kpi_reach"
+                >Portée Publicitaire</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- FINANCIAL KPI CARDS -->
+        <div class="kpi-grid kpi-grid-2">
+          <div class="kpi-card kpi-green">
+            <div class="kpi-icon"><i class="fas fa-money-bill-wave"></i></div>
+            <div class="kpi-data">
+              <span class="kpi-value" id="kpi-ad-spend">$40.00</span>
+              <span class="kpi-label" data-i18n="kpi_ad_spend_total"
+                >Dépenses Campagnes</span
+              >
+            </div>
+          </div>
+          <div class="kpi-card kpi-blue">
+            <div class="kpi-icon"><i class="fas fa-comment-dollar"></i></div>
+            <div class="kpi-data">
+              <span class="kpi-value" id="kpi-avg-cpm">$0.51</span>
+              <span class="kpi-label" data-i18n="kpi_avg_cost_msg"
+                >Coût par Message Moyen</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- PLATFORM COMPARISON -->
+        <div class="grid-2">
+          <div class="card">
+            <h3 class="card-title">
+              <i class="fas fa-chart-bar"></i>
+              <span data-i18n="platform_views">Vues par Plateforme</span>
+            </h3>
+            <div class="chart-container">
+              <canvas id="platformViewsChart"></canvas>
+            </div>
+          </div>
+          <div class="card">
+            <h3 class="card-title">
+              <i class="fas fa-users"></i>
+              <span data-i18n="platform_followers">Abonnés par Plateforme</span>
+            </h3>
+            <div class="chart-container">
+              <canvas id="platformFollowersChart"></canvas>
+            </div>
+          </div>
+        </div>
+
+        <!-- FOLLOWERS OVERVIEW (Combined) -->
+        <div class="card">
+          <h3 class="card-title">
+            <i class="fas fa-user-plus"></i>
+            <span data-i18n="followers_over_time"
+              >Évolution des Abonnés (Facebook)</span
+            >
+          </h3>
+          <div class="chart-container chart-lg">
+            <canvas id="overviewFollowersChart"></canvas>
+          </div>
+        </div>
+
+        <!-- AD SPEND BREAKDOWN -->
+        <div class="grid-2">
+          <div class="card">
+            <h3 class="card-title">
+              <i class="fas fa-money-bill-wave"></i>
+              <span data-i18n="ad_spend_campaign">Dépenses par Campagne</span>
+            </h3>
+            <div class="chart-container">
+              <canvas id="adSpendChart"></canvas>
+            </div>
+          </div>
+          <div class="card">
+            <h3 class="card-title">
+              <i class="fas fa-comment-dollar"></i>
+              <span data-i18n="cost_per_msg_chart">Coût par Message (USD)</span>
+            </h3>
+            <div class="chart-container">
+              <canvas id="costPerMsgChart"></canvas>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====== FACEBOOK TAB ====== -->
+      <section class="tab-content" id="tab-facebook">
+        <div class="platform-header fb-header">
+          <i class="fab fa-facebook"></i>
+          <div>
+            <h2>Facebook – 3M Lounge</h2>
+            <p data-i18n="fb_subtitle">
+              Statistiques détaillées de la page Facebook
+            </p>
+          </div>
+        </div>
+
+        <!-- FB KPI -->
+        <div class="kpi-grid kpi-grid-4">
+          <div class="kpi-card kpi-blue">
+            <div class="kpi-icon"><i class="fas fa-user-plus"></i></div>
+            <div class="kpi-data">
+              <span class="kpi-value">228</span>
+              <span class="kpi-label" data-i18n="new_followers"
+                >Nouveaux Abonnés</span
+              >
+            </div>
+          </div>
+          <div class="kpi-card kpi-gold">
+            <div class="kpi-icon"><i class="fas fa-eye"></i></div>
+            <div class="kpi-data">
+              <span class="kpi-value">296,195</span>
+              <span class="kpi-label" data-i18n="total_views"
+                >Vues Totales</span
+              >
+            </div>
+          </div>
+          <div class="kpi-card kpi-green">
+            <div class="kpi-icon"><i class="fas fa-users"></i></div>
+            <div class="kpi-data">
+              <span class="kpi-value">205,653</span>
+              <span class="kpi-label" data-i18n="unique_viewers"
+                >Spectateurs Uniques</span
+              >
+            </div>
+          </div>
+          <div class="kpi-card kpi-purple">
+            <div class="kpi-icon"><i class="fas fa-door-open"></i></div>
+            <div class="kpi-data">
+              <span class="kpi-value">10,189</span>
+              <span class="kpi-label" data-i18n="page_visits"
+                >Visites de la Page</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- FB Charts -->
+        <div class="card">
+          <h3 class="card-title">
+            <i class="fas fa-chart-area"></i>
+            <span data-i18n="fb_views_viewers"
+              >Vues & Spectateurs Quotidiens</span
+            >
+          </h3>
+          <div class="chart-container chart-lg">
+            <canvas id="fbViewsChart"></canvas>
+          </div>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <h3 class="card-title">
+              <i class="fas fa-user-plus"></i>
+              <span data-i18n="fb_follows_daily">Abonnés Quotidiens</span>
+            </h3>
+            <div class="chart-container">
+              <canvas id="fbFollowsChart"></canvas>
+            </div>
+          </div>
+          <div class="card">
+            <h3 class="card-title">
+              <i class="fas fa-hand-pointer"></i>
+              <span data-i18n="fb_interactions">Interactions Quotidiennes</span>
+            </h3>
+            <div class="chart-container">
+              <canvas id="fbInteractionsChart"></canvas>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <h3 class="card-title">
+              <i class="fas fa-link"></i>
+              <span data-i18n="fb_link_clicks">Clics sur les Liens</span>
+            </h3>
+            <div class="chart-container">
+              <canvas id="fbLinkClicksChart"></canvas>
+            </div>
+          </div>
+          <div class="card">
+            <h3 class="card-title">
+              <i class="fas fa-door-open"></i>
+              <span data-i18n="fb_visits">Visites de la Page</span>
+            </h3>
+            <div class="chart-container">
+              <canvas id="fbVisitsChart"></canvas>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3 class="card-title">
+            <i class="fas fa-fire"></i>
+            <span data-i18n="fb_engagement_daily"
+              >Engagement Page (Quotidien)</span
+            >
+          </h3>
+          <div class="chart-container chart-lg">
+            <canvas id="fbEngagementChart"></canvas>
+          </div>
+        </div>
+
+        <!-- Audience -->
+        <div class="grid-2">
+          <div class="card">
+            <h3 class="card-title">
+              <i class="fas fa-venus-mars"></i>
+              <span data-i18n="fb_audience_gender"
+                >Audience par Âge et Genre</span
+              >
+            </h3>
+            <div class="chart-container">
+              <canvas id="fbAudienceGenderChart"></canvas>
+            </div>
+          </div>
+          <div class="card">
+            <h3 class="card-title">
+              <i class="fas fa-map-marker-alt"></i>
+              <span data-i18n="fb_audience_cities">Top Villes</span>
+            </h3>
+            <div class="chart-container">
+              <canvas id="fbAudienceCitiesChart"></canvas>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====== INSTAGRAM TAB ====== -->
+      <section class="tab-content" id="tab-instagram">
+        <div class="platform-header ig-header">
+          <i class="fab fa-instagram"></i>
+          <div>
+            <h2>Instagram – @3m.lounge</h2>
+            <p data-i18n="ig_subtitle">
+              Statistiques détaillées du compte Instagram
+            </p>
+          </div>
+        </div>
+
+        <div class="kpi-grid kpi-grid-3">
+          <div class="kpi-card kpi-pink">
+            <div class="kpi-icon"><i class="fas fa-user-plus"></i></div>
+            <div class="kpi-data">
+              <span class="kpi-value">161</span>
+              <span class="kpi-label" data-i18n="new_followers"
+                >Nouveaux Abonnés</span
+              >
+            </div>
+          </div>
+          <div class="kpi-card kpi-purple">
+            <div class="kpi-icon"><i class="fas fa-eye"></i></div>
+            <div class="kpi-data">
+              <span class="kpi-value">17,050+</span>
+              <span class="kpi-label" data-i18n="total_views"
+                >Vues Totales</span
+              >
+            </div>
+          </div>
+          <div class="kpi-card kpi-gold">
+            <div class="kpi-icon"><i class="fas fa-globe-africa"></i></div>
+            <div class="kpi-data">
+              <span class="kpi-value">96.9%</span>
+              <span class="kpi-label" data-i18n="ig_tunisia"
+                >Audience Tunisie</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- IG Charts -->
+        <div class="card">
+          <h3 class="card-title">
+            <i class="fas fa-user-plus"></i>
+            <span data-i18n="ig_follows_daily"
+              >Abonnés Instagram Quotidiens</span
+            >
+          </h3>
+          <div class="chart-container chart-lg">
+            <canvas id="igFollowsChart"></canvas>
+          </div>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <h3 class="card-title">
+              <i class="fas fa-venus-mars"></i>
+              <span data-i18n="ig_audience_gender"
+                >Audience par Âge et Genre</span
+              >
+            </h3>
+            <div class="chart-container">
+              <canvas id="igAudienceGenderChart"></canvas>
+            </div>
+          </div>
+          <div class="card">
+            <h3 class="card-title">
+              <i class="fas fa-map-marker-alt"></i>
+              <span data-i18n="ig_audience_cities">Top Villes Instagram</span>
+            </h3>
+            <div class="chart-container">
+              <canvas id="igAudienceCitiesChart"></canvas>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3 class="card-title">
+            <i class="fas fa-globe"></i>
+            <span data-i18n="ig_countries">Pays de l'Audience</span>
+          </h3>
+          <div class="chart-container" style="max-width: 500px; margin: 0 auto">
+            <canvas id="igCountriesChart"></canvas>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====== TIKTOK TAB ====== -->
+      <section class="tab-content" id="tab-tiktok">
+        <div class="platform-header tk-header">
+          <i class="fab fa-tiktok"></i>
+          <div>
+            <h2>TikTok – @3m_lounge_den_den</h2>
+            <p data-i18n="tk_subtitle">
+              Statistiques détaillées du compte TikTok
+            </p>
+          </div>
+        </div>
+
+        <div class="kpi-grid kpi-grid-4">
+          <div class="kpi-card kpi-dark">
+            <div class="kpi-icon"><i class="fas fa-play"></i></div>
+            <div class="kpi-data">
+              <span class="kpi-value">61,540</span>
+              <span class="kpi-label" data-i18n="tk_video_views"
+                >Vues Vidéo</span
+              >
+            </div>
+          </div>
+          <div class="kpi-card kpi-red">
+            <div class="kpi-icon"><i class="fas fa-heart"></i></div>
+            <div class="kpi-data">
+              <span class="kpi-value">1,139</span>
+              <span class="kpi-label" data-i18n="tk_likes">Likes</span>
+            </div>
+          </div>
+          <div class="kpi-card kpi-blue">
+            <div class="kpi-icon"><i class="fas fa-share"></i></div>
+            <div class="kpi-data">
+              <span class="kpi-value">282</span>
+              <span class="kpi-label" data-i18n="tk_shares">Partages</span>
+            </div>
+          </div>
+          <div class="kpi-card kpi-teal">
+            <div class="kpi-icon"><i class="fas fa-user"></i></div>
+            <div class="kpi-data">
+              <span class="kpi-value">1,203</span>
+              <span class="kpi-label" data-i18n="tk_profile_views"
+                >Vues du Profil</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- TK Charts -->
+        <div class="card">
+          <h3 class="card-title">
+            <i class="fas fa-chart-line"></i>
+            <span data-i18n="tk_views_daily">Vues Vidéo Quotidiennes</span>
+          </h3>
+          <div class="chart-container chart-lg">
+            <canvas id="tkViewsChart"></canvas>
+          </div>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <h3 class="card-title">
+              <i class="fas fa-heart"></i>
+              <span data-i18n="tk_likes_daily">Likes Quotidiens</span>
+            </h3>
+            <div class="chart-container">
+              <canvas id="tkLikesChart"></canvas>
+            </div>
+          </div>
+          <div class="card">
+            <h3 class="card-title">
+              <i class="fas fa-share-alt"></i>
+              <span data-i18n="tk_shares_daily">Partages Quotidiens</span>
+            </h3>
+            <div class="chart-container">
+              <canvas id="tkSharesChart"></canvas>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3 class="card-title">
+            <i class="fas fa-user"></i>
+            <span data-i18n="tk_profile_daily"
+              >Vues du Profil Quotidiennes</span
+            >
+          </h3>
+          <div class="chart-container chart-lg">
+            <canvas id="tkProfileChart"></canvas>
+          </div>
+        </div>
+
+        <!-- TK Data Table -->
+        <div class="card">
+          <h3 class="card-title">
+            <i class="fas fa-table"></i>
+            <span data-i18n="tk_daily_table">Données Quotidiennes TikTok</span>
+          </h3>
+          <div class="table-wrapper">
+            <table class="data-table" id="tkTable">
+              <thead>
+                <tr>
+                  <th data-i18n="col_date">Date</th>
+                  <th data-i18n="tk_video_views">Vues Vidéo</th>
+                  <th data-i18n="tk_profile_views">Vues Profil</th>
+                  <th data-i18n="tk_likes">Likes</th>
+                  <th data-i18n="col_comments">Commentaires</th>
+                  <th data-i18n="tk_shares">Partages</th>
+                </tr>
+              </thead>
+              <tbody id="tkTableBody"></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====== PUBLICATIONS TAB ====== -->
+      <section class="tab-content" id="tab-publications">
+        <div class="platform-header" style="border-left: 4px solid #c9933b">
+          <i class="fas fa-trophy" style="color: #c9933b; font-size: 2rem"></i>
+          <div>
+            <h2 data-i18n="publications_title">
+              Top Publications – Facebook & Instagram
+            </h2>
+            <p data-i18n="publications_subtitle">
+              Meilleures publications avec vues combinées des deux plateformes
+            </p>
+          </div>
+        </div>
+
+        <!-- Combined Posts Table -->
+        <div class="card">
+          <h3 class="card-title">
+            <i class="fas fa-list-ol"></i>
+            <span data-i18n="publications_table_title"
+              >Toutes les Publications (Triées par Vues Totales)</span
+            >
+          </h3>
+          <div class="table-wrapper">
+            <table class="data-table" id="combinedPostsTable">
+              <thead>
+                <tr>
+                  <th data-i18n="col_post">Publication</th>
+                  <th data-i18n="col_platform">Plateforme</th>
+                  <th data-i18n="col_type">Type</th>
+                  <th data-i18n="col_date">Date</th>
+                  <th data-i18n="col_fb_views">Vues FB</th>
+                  <th data-i18n="col_ig_views">Vues IG</th>
+                  <th data-i18n="col_total_views">Vues Totales</th>
+                  <th data-i18n="col_reach">Portée</th>
+                  <th data-i18n="col_engagement">Engagements</th>
+                </tr>
+              </thead>
+              <tbody id="combinedPostsBody"></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====== ADS MANAGER TAB ====== -->
+      <section class="tab-content" id="tab-ads">
+        <div class="platform-header ads-header">
+          <i class="fas fa-bullhorn"></i>
+          <div>
+            <h2 data-i18n="ads_title">Ads Manager – Meta</h2>
+            <p data-i18n="ads_subtitle">
+              Performances des campagnes publicitaires
+            </p>
+          </div>
+        </div>
+
+        <div class="kpi-grid kpi-grid-4">
+          <div class="kpi-card kpi-red">
+            <div class="kpi-icon"><i class="fas fa-dollar-sign"></i></div>
+            <div class="kpi-data">
+              <span class="kpi-value">$40.00</span>
+              <span class="kpi-label" data-i18n="ads_total_spent"
+                >Total Dépensé</span
+              >
+            </div>
+          </div>
+          <div class="kpi-card kpi-blue">
+            <div class="kpi-icon"><i class="fas fa-ad"></i></div>
+            <div class="kpi-data">
+              <span class="kpi-value">98,250</span>
+              <span class="kpi-label" data-i18n="ads_impressions"
+                >Impressions</span
+              >
+            </div>
+          </div>
+          <div class="kpi-card kpi-green">
+            <div class="kpi-icon"><i class="fas fa-bullseye"></i></div>
+            <div class="kpi-data">
+              <span class="kpi-value">68,500</span>
+              <span class="kpi-label" data-i18n="ads_reach">Portée</span>
+            </div>
+          </div>
+          <div class="kpi-card kpi-purple">
+            <div class="kpi-icon"><i class="fas fa-comments"></i></div>
+            <div class="kpi-data">
+              <span class="kpi-value">78</span>
+              <span class="kpi-label" data-i18n="ads_conversations"
+                >Conversations</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Ad performance summary -->
+        <div class="card highlight-card">
+          <h3 class="card-title">
+            <i class="fas fa-info-circle"></i>
+            <span data-i18n="ads_summary">Résumé Publicitaire Global</span>
+          </h3>
+          <div class="stats-grid">
+            <div class="stat-item">
+              <span class="stat-number">98,250</span>
+              <span class="stat-desc" data-i18n="impressions">Impressions</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">68,500</span>
+              <span class="stat-desc" data-i18n="reach">Portée</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">$40.00</span>
+              <span class="stat-desc" data-i18n="amount_spent"
+                >Budget Dépensé</span
+              >
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">31,250</span>
+              <span class="stat-desc" data-i18n="post_engagements"
+                >Engagements</span
+              >
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">78</span>
+              <span class="stat-desc" data-i18n="conversations_label"
+                >Conversations</span
+              >
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">$0.51</span>
+              <span class="stat-desc" data-i18n="cost_per_conv"
+                >Coût / Conversation</span
+              >
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">$0.41</span>
+              <span class="stat-desc" data-i18n="cpm">CPM</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">82</span>
+              <span class="stat-desc" data-i18n="messaging_contacts"
+                >Contacts Messagerie</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Ad Charts -->
+        <div class="grid-2">
+          <div class="card">
+            <h3 class="card-title">
+              <i class="fas fa-chart-pie"></i>
+              <span data-i18n="ads_spend_breakdown">Répartition Budget</span>
+            </h3>
+            <div class="chart-container">
+              <canvas id="adsSpendPieChart"></canvas>
+            </div>
+          </div>
+          <div class="card">
+            <h3 class="card-title">
+              <i class="fas fa-chart-bar"></i>
+              <span data-i18n="ads_conversations_chart"
+                >Conversations par Campagne</span
+              >
+            </h3>
+            <div class="chart-container">
+              <canvas id="adsConversationsChart"></canvas>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3 class="card-title">
+            <i class="fas fa-comment-dollar"></i>
+            <span data-i18n="ads_cpm_compare"
+              >Coût par Message – Comparaison</span
+            >
+          </h3>
+          <div class="chart-container chart-lg">
+            <canvas id="adsCPMCompareChart"></canvas>
+          </div>
+        </div>
+
+        <!-- Campaigns Table -->
+        <div class="card">
+          <h3 class="card-title">
+            <i class="fas fa-table"></i>
+            <span data-i18n="ads_campaigns_table">Détails des Campagnes</span>
+          </h3>
+          <div class="table-wrapper">
+            <table class="data-table" id="adsTable">
+              <thead>
+                <tr>
+                  <th data-i18n="col_campaign">Campagne</th>
+                  <th data-i18n="col_status">Statut</th>
+                  <th data-i18n="col_spent">Dépensé ($)</th>
+                  <th data-i18n="ads_impressions">Impressions</th>
+                  <th data-i18n="ads_reach">Portée</th>
+                  <th data-i18n="col_results">Résultats</th>
+                  <th data-i18n="col_conversations">Conversations</th>
+                  <th data-i18n="col_cost_per_msg">Coût/Message ($)</th>
+                </tr>
+              </thead>
+              <tbody id="adsTableBody"></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
