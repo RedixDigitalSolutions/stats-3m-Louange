@@ -43,6 +43,10 @@
           <i class="fas fa-trophy"></i>
           <span data-i18n="nav_publications">Publications</span>
         </li>
+        <li class="nav-item" data-tab="audience">
+          <i class="fas fa-users"></i>
+          <span data-i18n="nav_audience">Audience</span>
+        </li>
         <li class="nav-item" data-tab="ads">
           <i class="fas fa-bullhorn"></i>
           <span data-i18n="nav_ads">Ads Manager</span>
@@ -573,8 +577,8 @@
 
       <!-- ====== PUBLICATIONS TAB ====== -->
       <section class="tab-content" id="tab-publications">
-        <div class="platform-header" style="border-left: 4px solid #c9933b">
-          <i class="fas fa-trophy" style="color: #c9933b; font-size: 2rem"></i>
+        <div class="platform-header pub-header">
+          <i class="fas fa-trophy"></i>
           <div>
             <h2 data-i18n="publications_title">
               Top Publications – Facebook & Instagram
@@ -585,21 +589,40 @@
           </div>
         </div>
 
-        <!-- Combined Posts Table -->
+        <!-- Sort Controls -->
+        <div class="sort-bar">
+          <span class="sort-label" data-i18n="sort_by">Trier par :</span>
+          <button
+            class="sort-btn active"
+            id="sortViewsBtn"
+            onclick="setSortMode('views')"
+          >
+            <i class="fas fa-eye"></i>
+            <span data-i18n="sort_views">Vues</span>
+          </button>
+          <button
+            class="sort-btn"
+            id="sortDateBtn"
+            onclick="setSortMode('date')"
+          >
+            <i class="fas fa-calendar-alt"></i>
+            <span data-i18n="sort_date">Date</span>
+          </button>
+        </div>
+
+        <!-- Reels Table -->
         <div class="card">
           <h3 class="card-title">
-            <i class="fas fa-list-ol"></i>
-            <span data-i18n="publications_table_title"
-              >Toutes les Publications (Triées par Vues Totales)</span
+            <i class="fas fa-video"></i>
+            <span data-i18n="reels_table_title"
+              >Reels (Vidéos) – Facebook & Instagram Combinés</span
             >
           </h3>
           <div class="table-wrapper">
-            <table class="data-table" id="combinedPostsTable">
+            <table class="data-table" id="reelsTable">
               <thead>
                 <tr>
                   <th data-i18n="col_post">Publication</th>
-                  <th data-i18n="col_platform">Plateforme</th>
-                  <th data-i18n="col_type">Type</th>
                   <th data-i18n="col_date">Date</th>
                   <th data-i18n="col_fb_views">Vues FB</th>
                   <th data-i18n="col_ig_views">Vues IG</th>
@@ -608,7 +631,210 @@
                   <th data-i18n="col_engagement">Engagements</th>
                 </tr>
               </thead>
-              <tbody id="combinedPostsBody"></tbody>
+              <tbody id="reelsBody"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Posts (Images) Table -->
+        <div class="card">
+          <h3 class="card-title">
+            <i class="fas fa-images"></i>
+            <span data-i18n="posts_table_title"
+              >Posts (Images) – Facebook & Instagram</span
+            >
+          </h3>
+          <div class="table-wrapper">
+            <table class="data-table" id="postsTable">
+              <thead>
+                <tr>
+                  <th data-i18n="col_post">Publication</th>
+                  <th data-i18n="col_platform">Plateforme</th>
+                  <th data-i18n="col_date">Date</th>
+                  <th data-i18n="col_fb_views">Vues FB</th>
+                  <th data-i18n="col_ig_views">Vues IG</th>
+                  <th data-i18n="col_total_views">Vues Totales</th>
+                  <th data-i18n="col_reach">Portée</th>
+                  <th data-i18n="col_engagement">Engagements</th>
+                </tr>
+              </thead>
+              <tbody id="postsBody"></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====== AUDIENCE TAB ====== -->
+      <section class="tab-content" id="tab-audience">
+        <div class="platform-header aud-header">
+          <i class="fas fa-users"></i>
+          <div>
+            <h2 data-i18n="audience_title">Audience – 3M Lounge</h2>
+            <p data-i18n="audience_subtitle">
+              Données démographiques & comportementales de l'audience
+            </p>
+          </div>
+        </div>
+
+        <!-- KPI Cards -->
+        <div class="kpi-grid kpi-grid-4">
+          <div class="kpi-card kpi-gold">
+            <div class="kpi-icon"><i class="fas fa-globe-africa"></i></div>
+            <div class="kpi-data">
+              <span class="kpi-value">96.9%</span>
+              <span class="kpi-label" data-i18n="aud_tunisia"
+                >Audience Tunisie</span
+              >
+            </div>
+          </div>
+          <div class="kpi-card kpi-pink">
+            <div class="kpi-icon"><i class="fas fa-venus"></i></div>
+            <div class="kpi-data">
+              <span class="kpi-value">62.9%</span>
+              <span class="kpi-label" data-i18n="aud_women"
+                >Femmes (audience)</span
+              >
+            </div>
+          </div>
+          <div class="kpi-card kpi-blue">
+            <div class="kpi-icon"><i class="fas fa-birthday-cake"></i></div>
+            <div class="kpi-data">
+              <span class="kpi-value">35–44</span>
+              <span class="kpi-label" data-i18n="aud_top_age"
+                >Tranche d'âge dominante</span
+              >
+            </div>
+          </div>
+          <div class="kpi-card kpi-purple">
+            <div class="kpi-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div class="kpi-data">
+              <span class="kpi-value">Tunis 45.9%</span>
+              <span class="kpi-label" data-i18n="aud_top_city"
+                >Ville principale</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Section: Audience actuelle -->
+        <div class="section-divider">
+          <i class="fas fa-user-check"></i>
+          <span data-i18n="aud_current_title">Audience Actuelle</span>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <h3 class="card-title">
+              <i class="fas fa-venus-mars"></i>
+              <span data-i18n="aud_age_gender"
+                >Âge & Genre – Audience actuelle</span
+              >
+            </h3>
+            <div class="chart-container">
+              <canvas id="audCurrentGenderChart"></canvas>
+            </div>
+          </div>
+          <div class="card">
+            <h3 class="card-title">
+              <i class="fas fa-globe"></i>
+              <span data-i18n="aud_countries">Pays – Audience actuelle</span>
+            </h3>
+            <div class="chart-container">
+              <canvas id="audCountriesChart"></canvas>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3 class="card-title">
+            <i class="fas fa-map-marker-alt"></i>
+            <span data-i18n="aud_cities">Top Villes – Audience actuelle</span>
+          </h3>
+          <div class="chart-container">
+            <canvas id="audCitiesChart"></canvas>
+          </div>
+        </div>
+
+        <!-- Section: Audience potentielle -->
+        <div class="section-divider">
+          <i class="fas fa-binoculars"></i>
+          <span data-i18n="aud_potential_title">Audience Potentielle</span>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <h3 class="card-title">
+              <i class="fas fa-venus-mars"></i>
+              <span data-i18n="aud_potential_gender"
+                >Âge & Genre – Audience potentielle</span
+              >
+            </h3>
+            <div class="chart-container">
+              <canvas id="audPotentialGenderChart"></canvas>
+            </div>
+          </div>
+          <div class="card">
+            <h3 class="card-title">
+              <i class="fas fa-map-marker-alt"></i>
+              <span data-i18n="aud_potential_cities"
+                >Top Villes – Audience potentielle</span
+              >
+            </h3>
+            <div class="chart-container">
+              <canvas id="audPotentialCitiesChart"></canvas>
+            </div>
+          </div>
+        </div>
+
+        <!-- Follows over time -->
+        <div class="card">
+          <h3 class="card-title">
+            <i class="fas fa-user-plus"></i>
+            <span data-i18n="aud_follows">Nouveaux Abonnés (quotidien)</span>
+          </h3>
+          <div class="chart-container chart-lg">
+            <canvas id="audFollowsChart"></canvas>
+          </div>
+        </div>
+
+        <!-- Top Pages affinity -->
+        <div class="card">
+          <h3 class="card-title">
+            <i class="fas fa-thumbs-up"></i>
+            <span data-i18n="aud_top_pages"
+              >Pages similaires – Affinité audience</span
+            >
+          </h3>
+          <p class="card-subtitle" data-i18n="aud_top_pages_sub">
+            % de l'audience qui suit également ces pages
+          </p>
+          <div class="chart-container chart-lg">
+            <canvas id="audTopPagesChart"></canvas>
+          </div>
+        </div>
+
+        <!-- Audience summary table -->
+        <div class="card">
+          <h3 class="card-title">
+            <i class="fas fa-table"></i>
+            <span data-i18n="aud_table_title"
+              >Tableau démographique complet</span
+            >
+          </h3>
+          <div class="table-wrapper">
+            <table class="data-table" id="audTable">
+              <thead>
+                <tr>
+                  <th data-i18n="aud_col_age">Tranche d'âge</th>
+                  <th data-i18n="aud_col_women_cur">Femmes (actuelle)</th>
+                  <th data-i18n="aud_col_men_cur">Hommes (actuelle)</th>
+                  <th data-i18n="aud_col_total_cur">Total (actuelle)</th>
+                  <th data-i18n="aud_col_women_pot">Femmes (potentielle)</th>
+                  <th data-i18n="aud_col_men_pot">Hommes (potentielle)</th>
+                  <th data-i18n="aud_col_total_pot">Total (potentielle)</th>
+                </tr>
+              </thead>
+              <tbody id="audTableBody"></tbody>
             </table>
           </div>
         </div>

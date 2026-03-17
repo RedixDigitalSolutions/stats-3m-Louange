@@ -44,11 +44,17 @@ const i18n = {
     ig_countries: "Pays de l'Audience",
     ig_top_posts: "Top Publications Instagram",
     nav_publications: "Publications",
+    sort_by: "Trier par :",
+    sort_views: "Vues",
+    sort_date: "Date",
     publications_title: "Top Publications \u2013 Facebook & Instagram",
     publications_subtitle:
       "Meilleures publications avec vues combin\u00e9es des deux plateformes",
     publications_table_title:
       "Toutes les Publications (Tri\u00e9es par Vues Totales)",
+    reels_table_title:
+      "Reels (Vid\u00e9os) \u2013 Facebook & Instagram Combin\u00e9s",
+    posts_table_title: "Posts (Images) \u2013 Facebook & Instagram",
     col_platform: "Plateforme",
     col_fb_views: "Vues FB",
     col_ig_views: "Vues IG",
@@ -99,6 +105,32 @@ const i18n = {
     col_results: "Résultats",
     col_conversations: "Conversations",
     col_cost_per_msg: "Coût/Message ($)",
+    nav_audience: "Audience",
+    audience_title: "Audience \u2013 3M Lounge",
+    audience_subtitle:
+      "Données démographiques & comportementales de l'audience",
+    aud_tunisia: "Audience Tunisie",
+    aud_women: "Femmes (audience)",
+    aud_top_age: "Tranche d'âge dominante",
+    aud_top_city: "Ville principale",
+    aud_current_title: "Audience Actuelle",
+    aud_age_gender: "Âge & Genre – Audience actuelle",
+    aud_countries: "Pays – Audience actuelle",
+    aud_cities: "Top Villes – Audience actuelle",
+    aud_potential_title: "Audience Potentielle",
+    aud_potential_gender: "Âge & Genre – Audience potentielle",
+    aud_potential_cities: "Top Villes – Audience potentielle",
+    aud_follows: "Nouveaux Abonnés (quotidien)",
+    aud_top_pages: "Pages similaires – Affinité audience",
+    aud_top_pages_sub: "% de l'audience qui suit également ces pages",
+    aud_table_title: "Tableau démographique complet",
+    aud_col_age: "Tranche d'âge",
+    aud_col_women_cur: "Femmes (actuelle)",
+    aud_col_men_cur: "Hommes (actuelle)",
+    aud_col_total_cur: "Total (actuelle)",
+    aud_col_women_pot: "Femmes (potentielle)",
+    aud_col_men_pot: "Hommes (potentielle)",
+    aud_col_total_pot: "Total (potentielle)",
     views_label: "Vues",
     viewers_label: "Spectateurs",
     follows_label: "Abonnés",
@@ -160,10 +192,15 @@ const i18n = {
     ig_countries: "دول الجمهور",
     ig_top_posts: "أفضل المنشورات – إنستغرام",
     nav_publications: "المنشورات",
+    sort_by: "الترتيب :",
+    sort_views: "المشاهدات",
+    sort_date: "التاريخ",
     publications_title: "أفضل المنشورات – فيسبوك & إنستغرام",
     publications_subtitle:
       "أفضل المنشورات مع المشاهدات المجمعة من كلا المنصتين",
     publications_table_title: "جميع المنشورات (مرتبة حسب إجمالي المشاهدات)",
+    reels_table_title: "الريلز (فيديو) \u2013 فيسبوك & إنستغرام مجمّعة",
+    posts_table_title: "المنشورات (صور) \u2013 فيسبوك & إنستغرام",
     col_platform: "المنصة",
     col_fb_views: "مشاهدات FB",
     col_ig_views: "مشاهدات IG",
@@ -230,12 +267,38 @@ const i18n = {
     spent_label: "الإنفاق ($)",
     conversations_label: "المحادثات",
     cost_msg_label: "تكلفة/رسالة ($)",
+    nav_audience: "الجمهور",
+    audience_title: "الجمهور \u2013 3M Lounge",
+    audience_subtitle: "البيانات الديموغرافية وسلوك الجمهور",
+    aud_tunisia: "جمهور تونس",
+    aud_women: "النساء (الجمهور)",
+    aud_top_age: "الفئة العمرية الأكثر حضوراً",
+    aud_top_city: "المدينة الرئيسية",
+    aud_current_title: "الجمهور الحالي",
+    aud_age_gender: "العمر والجنس – الجمهور الحالي",
+    aud_countries: "الدول – الجمهور الحالي",
+    aud_cities: "أهم المدن – الجمهور الحالي",
+    aud_potential_title: "الجمهور المحتمل",
+    aud_potential_gender: "العمر والجنس – الجمهور المحتمل",
+    aud_potential_cities: "أهم المدن – الجمهور المحتمل",
+    aud_follows: "متابعون جدد (يومي)",
+    aud_top_pages: "الصفحات المماثلة – تقارب الجمهور",
+    aud_top_pages_sub: "% من الجمهور يتابع هذه الصفحات أيضاً",
+    aud_table_title: "الجدول الديموغرافي الكامل",
+    aud_col_age: "الفئة العمرية",
+    aud_col_women_cur: "نساء (حالي)",
+    aud_col_men_cur: "رجال (حالي)",
+    aud_col_total_cur: "المجموع (حالي)",
+    aud_col_women_pot: "نساء (محتمل)",
+    aud_col_men_pot: "رجال (محتمل)",
+    aud_col_total_pot: "المجموع (محتمل)",
   },
 };
 
 /* ====== STATE ====== */
 let currentLang = "fr";
 let data = null;
+let sortMode = "views"; // 'views' | 'date'
 const charts = {};
 
 /* ====== INIT ====== */
@@ -268,6 +331,17 @@ function setupNavigation() {
 }
 function toggleSidebar() {
   document.getElementById("sidebar").classList.toggle("open");
+}
+
+function setSortMode(mode) {
+  sortMode = mode;
+  document
+    .getElementById("sortViewsBtn")
+    .classList.toggle("active", mode === "views");
+  document
+    .getElementById("sortDateBtn")
+    .classList.toggle("active", mode === "date");
+  renderCombinedPosts();
 }
 
 /* ====== LANGUAGE ====== */
@@ -411,6 +485,7 @@ function renderAllCharts() {
   renderInstagramCharts();
   renderTiktokCharts();
   renderAdsCharts();
+  renderAudienceCharts();
 }
 
 /* ====== OVERVIEW CHARTS ====== */
@@ -810,128 +885,134 @@ function renderAllTables() {
   renderCombinedPosts();
   renderTKTable();
   renderAdsTable();
+  renderAudienceTable();
 }
 
 function buildCombinedPosts() {
-  // Match rules for posts that appear on both platforms
-  const matchRules = [
-    { keywords: ["lait de poule"], date: "Mar 15" },
+  // Cross-date keyword match rules for posts published on different days across platforms
+  const crossDateMatchRules = [
     {
-      keywords: ["\u0644\u0642\u0627\u0621 \u0639\u0627\u0626\u0644\u064a"],
-      date: "Mar 06",
-    },
-    { keywords: ["\u0643\u0646\u0632\u0627"], date: "Feb 10" },
-    {
-      keywords: [
-        "\u0643\u0648\u0646\u0627\u0641\u0629",
-        "\u0627\u0644\u0628\u0646\u0651\u0629",
-      ],
-      date: "Feb 21",
+      fb: "03/03/2026",
+      ig: "02/27/2026",
+      keywords: ["كونافة", "بنّة"],
     },
     {
-      keywords: ["\u0645\u0631\u062d\u0628\u0627 \u0628\u0643\u0645"],
-      date: "Feb 11",
-    },
-    { keywords: ["overdose"], date: "Feb 25" },
-    {
-      keywords: ["\u0643\u0644 \u0627\u0644\u0623\u0646\u0648\u0627\u0639"],
-      date: "Mar 03",
-    },
-    { keywords: ["\u0646\u0648\u062f\u0651\u0643"], date: "Feb 15" },
-    {
-      keywords: ["\u0634\u0642\u0627\u0646 \u0627\u0644\u0641\u0637\u0631"],
-      date: "Mar 05",
-    },
-    { keywords: ["\u0645\u0648\u062e\u064a\u062a\u0648"], date: "Mar 13" },
-    {
-      keywords: ["\u0647\u0644\u0651 \u0647\u0644\u0627\u0644\u0648"],
-      date: "Feb 18",
-    },
-    { keywords: ["\u0627\u0644\u0641\u0633\u062a\u0642"], date: "Mar 06" },
-    {
-      keywords: ["\u0627\u0644\u0645\u064a\u0644\u0643 \u0634\u064a\u0643"],
-      date: "Mar 11",
-    },
-    {
-      keywords: [
-        "\u0633\u0647\u0631\u064a\u0651\u0629 \u0631\u0645\u0636\u0627\u0646",
-      ],
-      date: "Mar 10",
+      fb: "03/08/2026",
+      ig: "02/21/2026",
+      keywords: ["جواجم", "رمضان"],
     },
   ];
 
-  function matchesRule(title, date, rule) {
-    const lower = (title || "").toLowerCase();
-    const keywordsMatch = rule.keywords.every((kw) =>
-      lower.includes(kw.toLowerCase()),
-    );
-    return keywordsMatch && date === rule.date;
+  // Match FB and IG posts by publish date (MM/DD/YYYY) + type category (video vs photo)
+  function getDateKey(publishTime) {
+    return (publishTime || "").split(" ")[0]; // "MM/DD/YYYY"
   }
 
-  const fbPosts = data.facebook.topPosts.map((p) => ({
-    ...p,
-    platform: "facebook",
-  }));
-  const igPosts = data.instagram.topPosts.map((p) => ({
-    ...p,
-    platform: "instagram",
-  }));
+  function isVideoType(type) {
+    const t = (type || "").toLowerCase();
+    return t === "videos" || t === "ig reel";
+  }
 
-  const combined = [];
+  function isPhotoType(type) {
+    const t = (type || "").toLowerCase();
+    return (
+      t === "photos" || t === "ig image" || t === "ig carousel" || t === "live"
+    );
+  }
+
+  function matchesCrossDateRule(fb, ig, rule) {
+    if (getDateKey(fb.publishTime) !== rule.fb) return false;
+    if (getDateKey(ig.publishTime) !== rule.ig) return false;
+    const combined = ((fb.title || "") + (ig.title || "")).toLowerCase();
+    return rule.keywords.every((kw) => combined.includes(kw.toLowerCase()));
+  }
+
+  const fbPosts = data.facebook.topPosts;
+  const igPosts = data.instagram.topPosts;
+
+  const reels = [];
+  const posts = [];
   const usedIG = new Set();
 
-  // Process each FB post — find IG match if exists
+  // Process each FB post
   for (const fb of fbPosts) {
+    const fbDate = getDateKey(fb.publishTime);
+    const fbIsVideo = isVideoType(fb.type);
+
     let matchedIG = null;
+    let matchedIdx = -1;
+
+    // 1. Try by same date + same type
     for (let i = 0; i < igPosts.length; i++) {
       if (usedIG.has(i)) continue;
       const ig = igPosts[i];
-      for (const rule of matchRules) {
-        if (
-          matchesRule(fb.title, fb.date, rule) &&
-          matchesRule(ig.title, ig.date, rule)
-        ) {
-          matchedIG = ig;
-          usedIG.add(i);
-          break;
-        }
+      const igDate = getDateKey(ig.publishTime);
+      const igIsVideo = isVideoType(ig.type);
+      if (fbDate === igDate && fbIsVideo === igIsVideo) {
+        matchedIG = ig;
+        matchedIdx = i;
+        break;
       }
-      if (matchedIG) break;
     }
 
-    if (matchedIG) {
-      // Merged entry
-      combined.push({
-        title: fb.title,
-        type: fb.type,
-        date: fb.date,
-        fbViews: fb.views || 0,
-        igViews: matchedIG.views || 0,
-        totalViews: (fb.views || 0) + (matchedIG.views || 0),
-        reach: (fb.reach || 0) + (matchedIG.reach || 0),
-        engagement:
-          (fb.reactions || 0) +
-          (fb.comments || 0) +
-          (fb.shares || 0) +
-          (matchedIG.likes || 0) +
-          (matchedIG.shares || 0) +
-          (matchedIG.saves || 0),
-        platforms: "both",
-        link: fb.link,
-      });
-    } else {
-      combined.push({
-        title: fb.title,
-        type: fb.type,
-        date: fb.date,
-        fbViews: fb.views || 0,
-        igViews: 0,
-        totalViews: fb.views || 0,
-        reach: fb.reach || 0,
-        engagement: (fb.reactions || 0) + (fb.comments || 0) + (fb.shares || 0),
-        platforms: "facebook",
-        link: fb.link,
-      });
+    // 2. If not found, try cross-date keyword rules (only for photo posts)
+    if (!matchedIG && !fbIsVideo) {
+      for (const rule of crossDateMatchRules) {
+        for (let i = 0; i < igPosts.length; i++) {
+          if (usedIG.has(i)) continue;
+          if (matchesCrossDateRule(fb, igPosts[i], rule)) {
+            matchedIG = igPosts[i];
+            matchedIdx = i;
+            break;
+          }
+        }
+        if (matchedIG) break;
+      }
+    }
+
+    if (matchedIG) usedIG.add(matchedIdx);
+
+    const entry = matchedIG
+      ? {
+          title: fb.title,
+          type: fb.type,
+          dateLabel: fb.dateLabel,
+          publishTime: fb.publishTime,
+          fbViews: fb.views || 0,
+          igViews: matchedIG.views || 0,
+          totalViews: (fb.views || 0) + (matchedIG.views || 0),
+          reach: (fb.reach || 0) + (matchedIG.reach || 0),
+          engagement:
+            (fb.reactions || 0) +
+            (fb.comments || 0) +
+            (fb.shares || 0) +
+            (matchedIG.likes || 0) +
+            (matchedIG.shares || 0) +
+            (matchedIG.saves || 0),
+          platforms: "both",
+          fbLink: fb.link,
+          igLink: matchedIG.link,
+        }
+      : {
+          title: fb.title,
+          type: fb.type,
+          dateLabel: fb.dateLabel,
+          publishTime: fb.publishTime,
+          fbViews: fb.views || 0,
+          igViews: 0,
+          totalViews: fb.views || 0,
+          reach: fb.reach || 0,
+          engagement:
+            (fb.reactions || 0) + (fb.comments || 0) + (fb.shares || 0),
+          platforms: "facebook",
+          fbLink: fb.link,
+          igLink: null,
+        };
+
+    if (fbIsVideo) {
+      reels.push(entry);
+    } else if (isPhotoType(fb.type)) {
+      posts.push(entry);
     }
   }
 
@@ -939,54 +1020,140 @@ function buildCombinedPosts() {
   for (let i = 0; i < igPosts.length; i++) {
     if (usedIG.has(i)) continue;
     const ig = igPosts[i];
-    combined.push({
+    const entry = {
       title: ig.title,
       type: ig.type,
-      date: ig.date,
+      dateLabel: ig.dateLabel,
+      publishTime: ig.publishTime,
       fbViews: 0,
       igViews: ig.views || 0,
       totalViews: ig.views || 0,
       reach: ig.reach || 0,
       engagement: (ig.likes || 0) + (ig.shares || 0) + (ig.saves || 0),
       platforms: "instagram",
-      link: ig.link,
-    });
+      fbLink: null,
+      igLink: ig.link,
+    };
+    if (isVideoType(ig.type)) {
+      reels.push(entry);
+    } else if (isPhotoType(ig.type)) {
+      posts.push(entry);
+    }
   }
 
-  return combined.sort((a, b) => b.totalViews - a.totalViews);
+  // Correction rule: if reach > totalViews, the difference is added to
+  // totalViews (and igViews) so that totalViews >= reach at all times.
+  function applyReachCorrection(arr) {
+    for (const entry of arr) {
+      if (entry.reach > entry.totalViews) {
+        const diff = entry.reach - entry.totalViews;
+        entry.totalViews += diff;
+        entry.igViews += diff;
+      }
+    }
+  }
+  applyReachCorrection(reels);
+  applyReachCorrection(posts);
+
+  function parseDate(publishTime) {
+    const d = new Date(
+      (publishTime || "").replace(/(\d{2})\/(\d{2})\/(\d{4})/, "$3-$1-$2"),
+    );
+    return isNaN(d) ? 0 : d.getTime();
+  }
+
+  if (sortMode === "date") {
+    reels.sort((a, b) => parseDate(b.publishTime) - parseDate(a.publishTime));
+    posts.sort((a, b) => parseDate(b.publishTime) - parseDate(a.publishTime));
+  } else {
+    reels.sort((a, b) => b.totalViews - a.totalViews);
+    posts.sort((a, b) => b.totalViews - a.totalViews);
+  }
+
+  return { reels, posts };
 }
 
 function renderCombinedPosts() {
-  const tbody = document.getElementById("combinedPostsBody");
-  if (!tbody) return;
-  const posts = buildCombinedPosts();
-  tbody.innerHTML = posts
-    .map((p) => {
-      const typeBadge = getBadge(p.type);
-      let platformBadge;
-      if (p.platforms === "both") {
-        platformBadge =
-          '<span class="badge badge-reel"><i class="fab fa-facebook"></i> + <i class="fab fa-instagram"></i></span>';
-      } else if (p.platforms === "facebook") {
-        platformBadge =
-          '<span class="badge" style="background:#1877f2;color:#fff"><i class="fab fa-facebook"></i> FB</span>';
-      } else {
-        platformBadge =
-          '<span class="badge" style="background:#e1306c;color:#fff"><i class="fab fa-instagram"></i> IG</span>';
-      }
-      return `<tr>
-            <td><a class="post-title" href="${escapeAttr(p.link)}" target="_blank" rel="noopener noreferrer">${escapeHtml(p.title)}</a></td>
-            <td>${platformBadge}</td>
-            <td>${typeBadge}</td>
-            <td>${escapeHtml(p.date)}</td>
-            <td>${p.fbViews > 0 ? num(p.fbViews) : "—"}</td>
-            <td>${p.igViews > 0 ? num(p.igViews) : "—"}</td>
-            <td><strong>${num(p.totalViews)}</strong></td>
+  const { reels, posts } = buildCombinedPosts();
+
+  function platformLinks(p) {
+    const parts = [];
+    if (p.fbLink)
+      parts.push(
+        `<a class="post-link-icon" href="${escapeAttr(p.fbLink)}" target="_blank" rel="noopener noreferrer" title="Facebook"><i class="fab fa-facebook"></i></a>`,
+      );
+    if (p.igLink)
+      parts.push(
+        `<a class="post-link-icon ig" href="${escapeAttr(p.igLink)}" target="_blank" rel="noopener noreferrer" title="Instagram"><i class="fab fa-instagram"></i></a>`,
+      );
+    return parts.join(" ");
+  }
+
+  function platformBadge(p) {
+    if (p.platforms === "both")
+      return '<span class="badge badge-reel"><i class="fab fa-facebook"></i> <i class="fab fa-instagram"></i></span>';
+    if (p.platforms === "facebook")
+      return '<span class="badge badge-fb"><i class="fab fa-facebook"></i> FB</span>';
+    return '<span class="badge badge-ig"><i class="fab fa-instagram"></i> IG</span>';
+  }
+
+  function typeBadge(type) {
+    const t = (type || "").toLowerCase();
+    if (t === "videos" || t === "ig reel")
+      return '<span class="badge badge-reel"><i class="fas fa-film"></i> Reel</span>';
+    if (t === "ig carousel")
+      return '<span class="badge badge-photo"><i class="fas fa-images"></i> Carrousel</span>';
+    return '<span class="badge badge-photo"><i class="fas fa-image"></i> Photo</span>';
+  }
+
+  // Render Reels table
+  const reelsBody = document.getElementById("reelsBody");
+  if (reelsBody) {
+    reelsBody.innerHTML = reels
+      .map((p) => {
+        return `<tr>
+            <td>
+              <div class="post-cell">
+                ${typeBadge(p.type)}
+                <span class="post-title-text">${escapeHtml(p.title)}</span>
+                <div class="post-links">${platformLinks(p)}</div>
+              </div>
+            </td>
+            <td>${escapeHtml(p.dateLabel || "")}</td>
+            <td>${p.fbViews > 0 ? num(p.fbViews) : "\u2014"}</td>
+            <td>${p.igViews > 0 ? num(p.igViews) : "\u2014"}</td>
+            <td><strong class="highlight-num">${num(p.totalViews)}</strong></td>
             <td>${num(p.reach)}</td>
             <td>${num(p.engagement)}</td>
         </tr>`;
-    })
-    .join("");
+      })
+      .join("");
+  }
+
+  // Render Posts (Images) table
+  const postsBody = document.getElementById("postsBody");
+  if (postsBody) {
+    postsBody.innerHTML = posts
+      .map((p) => {
+        return `<tr>
+            <td>
+              <div class="post-cell">
+                ${typeBadge(p.type)}
+                <span class="post-title-text">${escapeHtml(p.title)}</span>
+                <div class="post-links">${platformLinks(p)}</div>
+              </div>
+            </td>
+            <td>${platformBadge(p)}</td>
+            <td>${escapeHtml(p.dateLabel || "")}</td>
+            <td>${p.fbViews > 0 ? num(p.fbViews) : "\u2014"}</td>
+            <td>${p.igViews > 0 ? num(p.igViews) : "\u2014"}</td>
+            <td><strong class="highlight-num">${num(p.totalViews)}</strong></td>
+            <td>${num(p.reach)}</td>
+            <td>${num(p.engagement)}</td>
+        </tr>`;
+      })
+      .join("");
+  }
 }
 
 function renderTKTable() {
@@ -1028,6 +1195,163 @@ function renderAdsTable() {
             <td>${num(c.messagingConversations)}</td>
             <td><strong>${c.costPerMessage.toFixed(3)}</strong></td>
         </tr>`;
+    })
+    .join("");
+}
+
+/* ====== AUDIENCE CHARTS ====== */
+function renderAudienceCharts() {
+  if (!data || !data.audience) return;
+  const cur = data.audience.current;
+  const pot = data.audience.potential;
+  const fb = data.facebook;
+
+  // Current audience: Age & Gender grouped bar
+  makeBarChart(
+    "audCurrentGenderChart",
+    cur.ageGender.labels,
+    [
+      {
+        label: t("women_label"),
+        data: cur.ageGender.women,
+        backgroundColor: PINK,
+        borderRadius: 4,
+      },
+      {
+        label: t("men_label"),
+        data: cur.ageGender.men,
+        backgroundColor: BLUE,
+        borderRadius: 4,
+      },
+    ],
+    false,
+    false,
+  );
+
+  // Current audience: Countries doughnut
+  const countryColors = [
+    GOLD,
+    BLUE,
+    GREEN,
+    PURPLE,
+    RED,
+    TEAL,
+    PINK,
+    "#f59e0b",
+    "#6366f1",
+    "#94a3b8",
+  ];
+  makeDoughnutChart(
+    "audCountriesChart",
+    cur.countries.labels,
+    cur.countries.values,
+    countryColors,
+  );
+
+  // Current audience: Cities horizontal bar
+  makeBarChart(
+    "audCitiesChart",
+    cur.cities.labels,
+    [
+      {
+        label: "%",
+        data: cur.cities.values,
+        backgroundColor: GOLD,
+        borderRadius: 4,
+        barPercentage: 0.65,
+      },
+    ],
+    true,
+  );
+
+  // Potential audience: Age & Gender grouped bar
+  makeBarChart(
+    "audPotentialGenderChart",
+    pot.ageGender.labels,
+    [
+      {
+        label: t("women_label"),
+        data: pot.ageGender.women,
+        backgroundColor: PINK,
+        borderRadius: 4,
+      },
+      {
+        label: t("men_label"),
+        data: pot.ageGender.men,
+        backgroundColor: BLUE,
+        borderRadius: 4,
+      },
+    ],
+    false,
+    false,
+  );
+
+  // Potential audience: Cities horizontal bar
+  makeBarChart(
+    "audPotentialCitiesChart",
+    pot.cities.labels,
+    [
+      {
+        label: "%",
+        data: pot.cities.values,
+        backgroundColor: TEAL,
+        borderRadius: 4,
+        barPercentage: 0.65,
+      },
+    ],
+    true,
+  );
+
+  // Follows over time (daily new followers)
+  makeBarChart("audFollowsChart", fb.follows.dates, [
+    {
+      label: t("follows_label"),
+      data: fb.follows.values,
+      backgroundColor: GOLD,
+      borderRadius: 4,
+      barPercentage: 0.7,
+    },
+  ]);
+
+  // Top Pages affinity horizontal bar
+  makeBarChart(
+    "audTopPagesChart",
+    cur.topPages.labels,
+    [
+      {
+        label: "%",
+        data: cur.topPages.values,
+        backgroundColor: palette8.map((c, i) => palette8[i % palette8.length]),
+        borderRadius: 4,
+        barPercentage: 0.65,
+      },
+    ],
+    true,
+  );
+}
+
+function renderAudienceTable() {
+  const tbody = document.getElementById("audTableBody");
+  if (!tbody || !data || !data.audience) return;
+  const cur = data.audience.current.ageGender;
+  const pot = data.audience.potential.ageGender;
+  tbody.innerHTML = cur.labels
+    .map((label, i) => {
+      const curWomen = cur.women[i] || 0;
+      const curMen = cur.men[i] || 0;
+      const curTotal = (curWomen + curMen).toFixed(1);
+      const potWomen = pot.women[i] || 0;
+      const potMen = pot.men[i] || 0;
+      const potTotal = (potWomen + potMen).toFixed(1);
+      return `<tr>
+        <td><strong>${escapeHtml(label)}</strong></td>
+        <td>${curWomen}%</td>
+        <td>${curMen}%</td>
+        <td><strong>${curTotal}%</strong></td>
+        <td>${potWomen}%</td>
+        <td>${potMen}%</td>
+        <td><strong>${potTotal}%</strong></td>
+      </tr>`;
     })
     .join("");
 }
