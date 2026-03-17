@@ -313,24 +313,39 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 /* ====== NAVIGATION ====== */
 function setupNavigation() {
+  function switchTab(tab) {
+    document
+      .querySelectorAll(".nav-item")
+      .forEach((n) => n.classList.remove("active"));
+    document
+      .querySelectorAll(".bottom-nav-item")
+      .forEach((n) => n.classList.remove("active"));
+    document
+      .querySelectorAll(".tab-content")
+      .forEach((t) => t.classList.remove("active"));
+
+    document
+      .querySelectorAll(`.nav-item[data-tab="${tab}"]`)
+      .forEach((n) => n.classList.add("active"));
+    document
+      .querySelectorAll(`.bottom-nav-item[data-tab="${tab}"]`)
+      .forEach((n) => n.classList.add("active"));
+
+    const section = document.getElementById("tab-" + tab);
+    if (section) section.classList.add("active");
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
   document.querySelectorAll(".nav-item").forEach((item) => {
-    item.addEventListener("click", () => {
-      const tab = item.dataset.tab;
-      document
-        .querySelectorAll(".nav-item")
-        .forEach((n) => n.classList.remove("active"));
-      item.classList.add("active");
-      document
-        .querySelectorAll(".tab-content")
-        .forEach((t) => t.classList.remove("active"));
-      document.getElementById("tab-" + tab).classList.add("active");
-      // Close sidebar on mobile
-      document.getElementById("sidebar").classList.remove("open");
-    });
+    item.addEventListener("click", () => switchTab(item.dataset.tab));
+  });
+
+  document.querySelectorAll(".bottom-nav-item").forEach((item) => {
+    item.addEventListener("click", () => switchTab(item.dataset.tab));
   });
 }
 function toggleSidebar() {
-  document.getElementById("sidebar").classList.toggle("open");
+  // kept for backward compatibility
 }
 
 function setSortMode(mode) {

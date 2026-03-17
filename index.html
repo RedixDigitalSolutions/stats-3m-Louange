@@ -62,14 +62,37 @@
 
     <!-- MOBILE HEADER -->
     <div class="mobile-header">
-      <button class="hamburger" onclick="toggleSidebar()">
-        <i class="fas fa-bars"></i>
-      </button>
       <div class="brand-icon brand-icon-sm">3M</div>
+      <span class="mobile-brand-text">Lounge</span>
       <button class="lang-switch-sm" onclick="toggleLang()">
         <i class="fas fa-language"></i>
       </button>
     </div>
+
+    <!-- MOBILE BOTTOM NAV -->
+    <nav class="bottom-nav" id="bottomNav">
+      <button class="bottom-nav-item active" data-tab="overview">
+        <i class="fas fa-chart-pie"></i>
+      </button>
+      <button class="bottom-nav-item" data-tab="facebook">
+        <i class="fab fa-facebook"></i>
+      </button>
+      <button class="bottom-nav-item" data-tab="instagram">
+        <i class="fab fa-instagram"></i>
+      </button>
+      <button class="bottom-nav-item" data-tab="tiktok">
+        <i class="fab fa-tiktok"></i>
+      </button>
+      <button class="bottom-nav-item" data-tab="publications">
+        <i class="fas fa-trophy"></i>
+      </button>
+      <button class="bottom-nav-item" data-tab="audience">
+        <i class="fas fa-users"></i>
+      </button>
+      <button class="bottom-nav-item" data-tab="ads">
+        <i class="fas fa-bullhorn"></i>
+      </button>
+    </nav>
 
     <!-- MAIN CONTENT -->
     <main class="main-content" id="mainContent">
